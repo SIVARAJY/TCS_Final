@@ -1,4 +1,4 @@
-# 🛡️ AI Financial Crime Network Investigator
+#  AI Financial Crime Network Investigator
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg)](https://fastapi.tiangolo.com/)
@@ -12,7 +12,7 @@ An enterprise-grade financial crime intelligence platform designed for Financial
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Architectural Overview](#-architectural-overview)
 - [Two Application Frontends](#-two-application-frontends)
@@ -28,7 +28,7 @@ An enterprise-grade financial crime intelligence platform designed for Financial
 
 ---
 
-## 🏛️ Architectural Overview
+## Architectural Overview
 
 The system operates across three core analytical layers without requiring any external database:
 
@@ -44,7 +44,7 @@ The system operates across three core analytical layers without requiring any ex
 
 ---
 
-## 🖥️ Two Application Frontends
+## Two Application Frontends
 
 | Platform | Address | Core Purpose |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ The system operates across three core analytical layers without requiring any ex
 
 ---
 
-## 🚨 10 Core Forensic Detectors
+## 10 Core Forensic Detectors
 
 All 10 detectors are implemented as separate, modular functions in `src/detectors/` and return a standardized finding schema.
 
@@ -103,7 +103,7 @@ Every detector returns records strictly matching this contract:
 
 ---
 
-## 📂 Supported 7-CSV Data Schemas
+## Supported 7-CSV Data Schemas
 
 The platform accommodates flexible column names, auto-resolves common aliases, tolerates missing optional fields, and **gracefully runs analysis on partial uploads** without requiring a database.
 
@@ -131,7 +131,7 @@ The platform accommodates flexible column names, auto-resolves common aliases, t
 
 ---
 
-## 🚀 Quick Start & Installation
+## Quick Start & Installation
 
 ### Prerequisites
 
@@ -154,7 +154,7 @@ streamlit run app.py
 ```
 
 - Open **[http://localhost:8501](http://localhost:8501)** in your browser.
-- Click **"⚡ Load 7 Pre-Planted Demo CSVs"** to immediately populate the workspace with planted money laundering rings, or drag-and-drop your own files in the **CSV Upload Center**.
+- Click **" Load 7 Pre-Planted Demo CSVs"** to immediately populate the workspace with planted money laundering rings, or drag-and-drop your own files in the **CSV Upload Center**.
 
 ### Option B: React + FastAPI Full-Stack Platform (Ports 5173 & 8000)
 
@@ -182,7 +182,7 @@ npm run dev
 
 ---
 
-## 📁 Project Directory Layout
+## Project Directory Layout
 
 ```text
 ├── app.py                     # Main Streamlit 7-CSV Network Investigator app
@@ -229,7 +229,7 @@ npm run dev
 
 ---
 
-## 🤖 AI Case Reporting & Gemini Configuration
+##  AI Case Reporting & Gemini Configuration
 
 To enable automated AI narrative synthesis:
 
@@ -242,7 +242,7 @@ To enable automated AI narrative synthesis:
 
 ---
 
-## 🚢 Deployment Guide
+##  Deployment Guide
 
 - **Streamlit Community Cloud**:
   - Deploy directly from your GitHub repository with `app.py` as the entrypoint. Add `GEMINI_API_KEY` under *App Settings -> Secrets*.
@@ -259,6 +259,6 @@ To enable automated AI narrative synthesis:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License. Developed for advanced financial crime network intelligence and AML compliance analytics.
