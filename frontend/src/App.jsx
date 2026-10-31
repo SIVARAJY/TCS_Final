@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import ForceGraph2D from "react-force-graph-2d";
-import { getGraph, getCases, getCase, getReport, getPipeline, API_BASE } from "./api";
+import { getGraph, getCases, getCase, getReport, getPipeline, API_BASE, isUsingMockFallback } from "./api";
 import LoginPage from "./LoginPage";
 
 // Entity type color theme (Modern Cyber-Fintech Palette)
@@ -44,6 +44,7 @@ export default function App() {
   const [filterType, setFilterType] = useState("all");
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [activeTab, setActiveTab] = useState("overview"); // overview | dossier | ledger
+  const [usingFallback, setUsingFallback] = useState(false);
   const fg = useRef();
 
   // Load backend data
@@ -54,6 +55,7 @@ export default function App() {
         setGraph(g);
         setCases(c);
         setPipeline(p);
+        setUsingFallback(isUsingMockFallback);
         if (c && c.length > 0) {
           openCase(c[0].id);
         }
@@ -157,10 +159,17 @@ export default function App() {
               <h1 className="text-base font-bold tracking-tight text-white leading-tight">
                 AI Financial Crime Network Investigator
               </h1>
-              <span className="hidden xl:inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800">
-                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                Live FIU Engine
-              </span>
+              {usingFallback ? (
+                <span className="hidden xl:inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-amber-950/80 text-amber-300 border border-amber-800" title="Running in standalone mode with embedded forensic dataset">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
+                  Standalone Demo Mode
+                </span>
+              ) : (
+                <span className="hidden xl:inline-flex items-center gap-1 text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800">
+                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
+                  Live FIU Engine
+                </span>
+              )}
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
               Multi-Entity Deterministic Graph Analytics · Topologic Loop Search · Gemini Case Dossiers

@@ -1,0 +1,4591 @@
+{
+  "graph": {
+    "nodes": [
+      {
+        "id": "CUS-1000",
+        "type": "customer",
+        "label": "CUS-1000",
+        "name": "Imran Reddy",
+        "dob": "1985-11-02",
+        "phone": "+91 9177777868",
+        "email": "user0@mail.com",
+        "address": "69 Lake View Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-4"
+      },
+      {
+        "id": "ACC-2000",
+        "type": "account",
+        "label": "ACC-2000",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-100",
+        "type": "device",
+        "label": "DEV-100",
+        "flagged": true,
+        "case": "CASE-4"
+      },
+      {
+        "id": "IP-100",
+        "type": "ip",
+        "label": "IP-100",
+        "flagged": true,
+        "case": "CASE-4"
+      },
+      {
+        "id": "CUS-1001",
+        "type": "customer",
+        "label": "CUS-1001",
+        "name": "Rahul Reddy",
+        "dob": "1963-09-07",
+        "phone": "+91 9140260662",
+        "email": "user1@mail.com",
+        "address": "69 Lake View Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-4"
+      },
+      {
+        "id": "ACC-2001",
+        "type": "account",
+        "label": "ACC-2001",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-101",
+        "type": "device",
+        "label": "DEV-101",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-101",
+        "type": "ip",
+        "label": "IP-101",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1002",
+        "type": "customer",
+        "label": "CUS-1002",
+        "name": "Lakshmi Iyer",
+        "dob": "1975-02-18",
+        "phone": "+91 9555824009",
+        "email": "user2@mail.com",
+        "address": "8 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2002",
+        "type": "account",
+        "label": "ACC-2002",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-102",
+        "type": "device",
+        "label": "DEV-102",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-102",
+        "type": "ip",
+        "label": "IP-102",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1003",
+        "type": "customer",
+        "label": "CUS-1003",
+        "name": "Karthik Gupta",
+        "dob": "2000-10-02",
+        "phone": "+91 9719659571",
+        "email": "user3@mail.com",
+        "address": "75 Gandhi St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2003",
+        "type": "account",
+        "label": "ACC-2003",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-103",
+        "type": "device",
+        "label": "DEV-103",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-103",
+        "type": "ip",
+        "label": "IP-103",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1004",
+        "type": "customer",
+        "label": "CUS-1004",
+        "name": "Asha Khan",
+        "dob": "1962-09-28",
+        "phone": "+91 9242995371",
+        "email": "user4@mail.com",
+        "address": "38 Gandhi St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2004",
+        "type": "account",
+        "label": "ACC-2004",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-104",
+        "type": "device",
+        "label": "DEV-104",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-104",
+        "type": "ip",
+        "label": "IP-104",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1005",
+        "type": "customer",
+        "label": "CUS-1005",
+        "name": "Meena Naidu",
+        "dob": "1967-10-10",
+        "phone": "+91 9701571670",
+        "email": "user5@mail.com",
+        "address": "88 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2005",
+        "type": "account",
+        "label": "ACC-2005",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-105",
+        "type": "device",
+        "label": "DEV-105",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-105",
+        "type": "ip",
+        "label": "IP-105",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1006",
+        "type": "customer",
+        "label": "CUS-1006",
+        "name": "Ravi Menon",
+        "dob": "1996-11-07",
+        "phone": "+91 9499858816",
+        "email": "user6@mail.com",
+        "address": "13 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2006",
+        "type": "account",
+        "label": "ACC-2006",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-106",
+        "type": "device",
+        "label": "DEV-106",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-106",
+        "type": "ip",
+        "label": "IP-106",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1007",
+        "type": "customer",
+        "label": "CUS-1007",
+        "name": "Farhan Kumar",
+        "dob": "1999-04-16",
+        "phone": "+91 9830573909",
+        "email": "user7@mail.com",
+        "address": "69 Gandhi St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2007",
+        "type": "account",
+        "label": "ACC-2007",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-107",
+        "type": "device",
+        "label": "DEV-107",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-107",
+        "type": "ip",
+        "label": "IP-107",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1008",
+        "type": "customer",
+        "label": "CUS-1008",
+        "name": "Kavya Pillai",
+        "dob": "1989-10-15",
+        "phone": "+91 9488246102",
+        "email": "user8@mail.com",
+        "address": "39 Temple St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2008",
+        "type": "account",
+        "label": "ACC-2008",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-108",
+        "type": "device",
+        "label": "DEV-108",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-108",
+        "type": "ip",
+        "label": "IP-108",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1009",
+        "type": "customer",
+        "label": "CUS-1009",
+        "name": "Kavya Reddy",
+        "dob": "1975-02-19",
+        "phone": "+91 9422390037",
+        "email": "user9@mail.com",
+        "address": "68 Nehru Nagar, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2009",
+        "type": "account",
+        "label": "ACC-2009",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-109",
+        "type": "device",
+        "label": "DEV-109",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-109",
+        "type": "ip",
+        "label": "IP-109",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1010",
+        "type": "customer",
+        "label": "CUS-1010",
+        "name": "Arjun Mehta",
+        "dob": "1985-02-02",
+        "phone": "+91 9178598835",
+        "email": "user10@mail.com",
+        "address": "7 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2010",
+        "type": "account",
+        "label": "ACC-2010",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-110",
+        "type": "device",
+        "label": "DEV-110",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-110",
+        "type": "ip",
+        "label": "IP-110",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1011",
+        "type": "customer",
+        "label": "CUS-1011",
+        "name": "Meena Pillai",
+        "dob": "1969-08-14",
+        "phone": "+91 9142098469",
+        "email": "user11@mail.com",
+        "address": "86 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2011",
+        "type": "account",
+        "label": "ACC-2011",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-111",
+        "type": "device",
+        "label": "DEV-111",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-111",
+        "type": "ip",
+        "label": "IP-111",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1012",
+        "type": "customer",
+        "label": "CUS-1012",
+        "name": "Kavya Naidu",
+        "dob": "1996-06-11",
+        "phone": "+91 9846567715",
+        "email": "user12@mail.com",
+        "address": "45 Nehru Nagar, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2012",
+        "type": "account",
+        "label": "ACC-2012",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-112",
+        "type": "device",
+        "label": "DEV-112",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-112",
+        "type": "ip",
+        "label": "IP-112",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1013",
+        "type": "customer",
+        "label": "CUS-1013",
+        "name": "Farhan Joseph",
+        "dob": "1964-02-09",
+        "phone": "+91 9609059210",
+        "email": "user13@mail.com",
+        "address": "90 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2013",
+        "type": "account",
+        "label": "ACC-2013",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-113",
+        "type": "device",
+        "label": "DEV-113",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-113",
+        "type": "ip",
+        "label": "IP-113",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1014",
+        "type": "customer",
+        "label": "CUS-1014",
+        "name": "Asha Verma",
+        "dob": "1979-11-19",
+        "phone": "+91 9831472844",
+        "email": "user14@mail.com",
+        "address": "58 Mount Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2014",
+        "type": "account",
+        "label": "ACC-2014",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-114",
+        "type": "device",
+        "label": "DEV-114",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-114",
+        "type": "ip",
+        "label": "IP-114",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1015",
+        "type": "customer",
+        "label": "CUS-1015",
+        "name": "Rohit Sharma",
+        "dob": "2002-06-01",
+        "phone": "+91 9595741540",
+        "email": "user15@mail.com",
+        "address": "46 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2015",
+        "type": "account",
+        "label": "ACC-2015",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-115",
+        "type": "device",
+        "label": "DEV-115",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-115",
+        "type": "ip",
+        "label": "IP-115",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1016",
+        "type": "customer",
+        "label": "CUS-1016",
+        "name": "Farhan Iyer",
+        "dob": "1991-01-07",
+        "phone": "+91 9924883888",
+        "email": "user16@mail.com",
+        "address": "37 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2016",
+        "type": "account",
+        "label": "ACC-2016",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-116",
+        "type": "device",
+        "label": "DEV-116",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-116",
+        "type": "ip",
+        "label": "IP-116",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1017",
+        "type": "customer",
+        "label": "CUS-1017",
+        "name": "Rohit Khan",
+        "dob": "1985-07-28",
+        "phone": "+91 9633120015",
+        "email": "user17@mail.com",
+        "address": "11 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2017",
+        "type": "account",
+        "label": "ACC-2017",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-117",
+        "type": "device",
+        "label": "DEV-117",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-117",
+        "type": "ip",
+        "label": "IP-117",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1018",
+        "type": "customer",
+        "label": "CUS-1018",
+        "name": "Suresh Sharma",
+        "dob": "1995-05-05",
+        "phone": "+91 9979695030",
+        "email": "user18@mail.com",
+        "address": "56 Mount Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2018",
+        "type": "account",
+        "label": "ACC-2018",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-118",
+        "type": "device",
+        "label": "DEV-118",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-118",
+        "type": "ip",
+        "label": "IP-118",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1019",
+        "type": "customer",
+        "label": "CUS-1019",
+        "name": "Rohit Sharma",
+        "dob": "1982-11-13",
+        "phone": "+91 9347767551",
+        "email": "user19@mail.com",
+        "address": "20 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2019",
+        "type": "account",
+        "label": "ACC-2019",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-119",
+        "type": "device",
+        "label": "DEV-119",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-119",
+        "type": "ip",
+        "label": "IP-119",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1020",
+        "type": "customer",
+        "label": "CUS-1020",
+        "name": "Sivakumar",
+        "dob": "1982-06-15",
+        "phone": "+91 98765 43210",
+        "email": "sk.kumar@mail.com",
+        "address": "63 Beach Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-3"
+      },
+      {
+        "id": "ACC-2020",
+        "type": "account",
+        "label": "ACC-2020",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-120",
+        "type": "device",
+        "label": "DEV-120",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-120",
+        "type": "ip",
+        "label": "IP-120",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1021",
+        "type": "customer",
+        "label": "CUS-1021",
+        "name": "Divya Das",
+        "dob": "1960-03-14",
+        "phone": "+91 9674012672",
+        "email": "user21@mail.com",
+        "address": "48 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2021",
+        "type": "account",
+        "label": "ACC-2021",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-121",
+        "type": "device",
+        "label": "DEV-121",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-121",
+        "type": "ip",
+        "label": "IP-121",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1022",
+        "type": "customer",
+        "label": "CUS-1022",
+        "name": "Meena Verma",
+        "dob": "1992-10-21",
+        "phone": "+91 9826064310",
+        "email": "user22@mail.com",
+        "address": "95 Anna Salai, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2022",
+        "type": "account",
+        "label": "ACC-2022",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-122",
+        "type": "device",
+        "label": "DEV-122",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-122",
+        "type": "ip",
+        "label": "IP-122",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1023",
+        "type": "customer",
+        "label": "CUS-1023",
+        "name": "Suresh Gupta",
+        "dob": "1995-07-13",
+        "phone": "+91 9528400257",
+        "email": "user23@mail.com",
+        "address": "51 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2023",
+        "type": "account",
+        "label": "ACC-2023",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-123",
+        "type": "device",
+        "label": "DEV-123",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-123",
+        "type": "ip",
+        "label": "IP-123",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1024",
+        "type": "customer",
+        "label": "CUS-1024",
+        "name": "Suresh Gupta",
+        "dob": "1985-01-07",
+        "phone": "+91 9172313951",
+        "email": "user24@mail.com",
+        "address": "27 Nehru Nagar, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2024",
+        "type": "account",
+        "label": "ACC-2024",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-124",
+        "type": "device",
+        "label": "DEV-124",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-124",
+        "type": "ip",
+        "label": "IP-124",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1025",
+        "type": "customer",
+        "label": "CUS-1025",
+        "name": "Meena Iyer",
+        "dob": "1981-10-02",
+        "phone": "+91 9209929256",
+        "email": "user25@mail.com",
+        "address": "1 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2025",
+        "type": "account",
+        "label": "ACC-2025",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-125",
+        "type": "device",
+        "label": "DEV-125",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-125",
+        "type": "ip",
+        "label": "IP-125",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1026",
+        "type": "customer",
+        "label": "CUS-1026",
+        "name": "Neha Iyer",
+        "dob": "1983-10-01",
+        "phone": "+91 9175500775",
+        "email": "user26@mail.com",
+        "address": "27 Gandhi St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2026",
+        "type": "account",
+        "label": "ACC-2026",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-126",
+        "type": "device",
+        "label": "DEV-126",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-126",
+        "type": "ip",
+        "label": "IP-126",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1027",
+        "type": "customer",
+        "label": "CUS-1027",
+        "name": "Meena Gupta",
+        "dob": "1976-06-20",
+        "phone": "+91 9491017514",
+        "email": "user27@mail.com",
+        "address": "61 Lake View Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2027",
+        "type": "account",
+        "label": "ACC-2027",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-127",
+        "type": "device",
+        "label": "DEV-127",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-127",
+        "type": "ip",
+        "label": "IP-127",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1028",
+        "type": "customer",
+        "label": "CUS-1028",
+        "name": "Ravi Joseph",
+        "dob": "1989-08-16",
+        "phone": "+91 9434848879",
+        "email": "user28@mail.com",
+        "address": "11 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2028",
+        "type": "account",
+        "label": "ACC-2028",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-128",
+        "type": "device",
+        "label": "DEV-128",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-128",
+        "type": "ip",
+        "label": "IP-128",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1029",
+        "type": "customer",
+        "label": "CUS-1029",
+        "name": "Ravi Verma",
+        "dob": "1981-12-09",
+        "phone": "+91 9613916392",
+        "email": "user29@mail.com",
+        "address": "89 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2029",
+        "type": "account",
+        "label": "ACC-2029",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-129",
+        "type": "device",
+        "label": "DEV-129",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-129",
+        "type": "ip",
+        "label": "IP-129",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1030",
+        "type": "customer",
+        "label": "CUS-1030",
+        "name": "Neha Kumar",
+        "dob": "1973-09-12",
+        "phone": "+91 9257413274",
+        "email": "user30@mail.com",
+        "address": "89 Anna Salai, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2030",
+        "type": "account",
+        "label": "ACC-2030",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-130",
+        "type": "device",
+        "label": "DEV-130",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-130",
+        "type": "ip",
+        "label": "IP-130",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1031",
+        "type": "customer",
+        "label": "CUS-1031",
+        "name": "Kavya Naidu",
+        "dob": "1979-11-28",
+        "phone": "+91 9197721832",
+        "email": "user31@mail.com",
+        "address": "90 Mount Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2031",
+        "type": "account",
+        "label": "ACC-2031",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-131",
+        "type": "device",
+        "label": "DEV-131",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-131",
+        "type": "ip",
+        "label": "IP-131",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1032",
+        "type": "customer",
+        "label": "CUS-1032",
+        "name": "Neha Pillai",
+        "dob": "1970-06-25",
+        "phone": "+91 9339221897",
+        "email": "user32@mail.com",
+        "address": "69 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2032",
+        "type": "account",
+        "label": "ACC-2032",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-132",
+        "type": "device",
+        "label": "DEV-132",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-132",
+        "type": "ip",
+        "label": "IP-132",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1033",
+        "type": "customer",
+        "label": "CUS-1033",
+        "name": "Anita Khan",
+        "dob": "1999-04-26",
+        "phone": "+91 9357040553",
+        "email": "user33@mail.com",
+        "address": "52 Temple St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2033",
+        "type": "account",
+        "label": "ACC-2033",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-133",
+        "type": "device",
+        "label": "DEV-133",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-133",
+        "type": "ip",
+        "label": "IP-133",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1034",
+        "type": "customer",
+        "label": "CUS-1034",
+        "name": "Karthik Naidu",
+        "dob": "1991-06-24",
+        "phone": "+91 9131117197",
+        "email": "user34@mail.com",
+        "address": "4 Mount Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2034",
+        "type": "account",
+        "label": "ACC-2034",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-134",
+        "type": "device",
+        "label": "DEV-134",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-134",
+        "type": "ip",
+        "label": "IP-134",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1035",
+        "type": "customer",
+        "label": "CUS-1035",
+        "name": "Suresh Das",
+        "dob": "1972-12-20",
+        "phone": "+91 9469668829",
+        "email": "user35@mail.com",
+        "address": "58 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2035",
+        "type": "account",
+        "label": "ACC-2035",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-135",
+        "type": "device",
+        "label": "DEV-135",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-135",
+        "type": "ip",
+        "label": "IP-135",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1036",
+        "type": "customer",
+        "label": "CUS-1036",
+        "name": "Imran Iyer",
+        "dob": "1974-02-08",
+        "phone": "+91 9604744541",
+        "email": "user36@mail.com",
+        "address": "26 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2036",
+        "type": "account",
+        "label": "ACC-2036",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-136",
+        "type": "device",
+        "label": "DEV-136",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-136",
+        "type": "ip",
+        "label": "IP-136",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1037",
+        "type": "customer",
+        "label": "CUS-1037",
+        "name": "Karthik Joseph",
+        "dob": "1999-10-27",
+        "phone": "+91 9102049037",
+        "email": "user37@mail.com",
+        "address": "62 Park St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2037",
+        "type": "account",
+        "label": "ACC-2037",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-137",
+        "type": "device",
+        "label": "DEV-137",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-137",
+        "type": "ip",
+        "label": "IP-137",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1038",
+        "type": "customer",
+        "label": "CUS-1038",
+        "name": "Kavya Gupta",
+        "dob": "1965-11-04",
+        "phone": "+91 9517187073",
+        "email": "user38@mail.com",
+        "address": "92 Temple St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2038",
+        "type": "account",
+        "label": "ACC-2038",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-138",
+        "type": "device",
+        "label": "DEV-138",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-138",
+        "type": "ip",
+        "label": "IP-138",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1039",
+        "type": "customer",
+        "label": "CUS-1039",
+        "name": "Suresh Reddy",
+        "dob": "1987-11-11",
+        "phone": "+91 9193146944",
+        "email": "user39@mail.com",
+        "address": "93 Gandhi St, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-2039",
+        "type": "account",
+        "label": "ACC-2039",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "DEV-139",
+        "type": "device",
+        "label": "DEV-139",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-139",
+        "type": "ip",
+        "label": "IP-139",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1100",
+        "type": "customer",
+        "label": "CUS-1100",
+        "name": "S. Kumar",
+        "dob": "1982-06-15",
+        "phone": "98765-43210",
+        "email": "sk.kumar@mail.com",
+        "address": "63 Beach Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-3"
+      },
+      {
+        "id": "CUS-1101",
+        "type": "customer",
+        "label": "CUS-1101",
+        "name": "S. Kumar",
+        "dob": "1991-12-01",
+        "phone": "+91 90000 12345",
+        "email": "kumar.s@other.com",
+        "address": "63 Beach Rd, Chennai",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "ACC-205",
+        "type": "account",
+        "label": "ACC-205",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "IP-205",
+        "type": "ip",
+        "label": "IP-205",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-1",
+        "type": "merchant",
+        "label": "MER-1",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-2",
+        "type": "merchant",
+        "label": "MER-2",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-3",
+        "type": "merchant",
+        "label": "MER-3",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-4",
+        "type": "merchant",
+        "label": "MER-4",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-5",
+        "type": "merchant",
+        "label": "MER-5",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-6",
+        "type": "merchant",
+        "label": "MER-6",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-7",
+        "type": "merchant",
+        "label": "MER-7",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "MER-8",
+        "type": "merchant",
+        "label": "MER-8",
+        "flagged": false,
+        "case": null
+      },
+      {
+        "id": "CUS-1",
+        "type": "customer",
+        "label": "CUS-1",
+        "name": "Arjun Mehta",
+        "dob": "1990-04-12",
+        "phone": "+91 98410 11223",
+        "email": "arjun.mehta@mail.com",
+        "address": "12 Lake View Road, Chennai",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "CUS-2",
+        "type": "customer",
+        "label": "CUS-2",
+        "name": "Priya Nair",
+        "dob": "1993-08-30",
+        "phone": "+91 90030 55671",
+        "email": "priya.n@mail.com",
+        "address": "44 Beach Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "CUS-3",
+        "type": "customer",
+        "label": "CUS-3",
+        "name": "Arjun K. Mehta",
+        "dob": "1990-04-12",
+        "phone": "98410-11223",
+        "email": "a.mehta90@mail.com",
+        "address": "12 Lakeview Rd, Chennai",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "CUS-900",
+        "type": "customer",
+        "label": "CUS-900",
+        "name": "Vikram Rao",
+        "dob": "1979-11-03",
+        "phone": "+91 94440 77812",
+        "email": "v.rao@mail.com",
+        "address": "9 Temple St, Chennai",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "CUS-950",
+        "type": "customer",
+        "label": "CUS-950",
+        "name": "Sana Iqbal",
+        "dob": "1988-01-21",
+        "phone": "+91 97100 22134",
+        "email": "sana.i@mail.com",
+        "address": "31 Gandhi St, Chennai",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "ACC-101",
+        "type": "account",
+        "label": "ACC-101",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "ACC-102",
+        "type": "account",
+        "label": "ACC-102",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "ACC-103",
+        "type": "account",
+        "label": "ACC-103",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "ACC-900",
+        "type": "account",
+        "label": "ACC-900",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "ACC-950",
+        "type": "account",
+        "label": "ACC-950",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "DEV-7",
+        "type": "device",
+        "label": "DEV-7",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "DEV-8",
+        "type": "device",
+        "label": "DEV-8",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "DEV-900",
+        "type": "device",
+        "label": "DEV-900",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "DEV-950",
+        "type": "device",
+        "label": "DEV-950",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "IP-55",
+        "type": "ip",
+        "label": "IP-55",
+        "flagged": true,
+        "case": "CASE-1"
+      },
+      {
+        "id": "IP-900",
+        "type": "ip",
+        "label": "IP-900",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "IP-950",
+        "type": "ip",
+        "label": "IP-950",
+        "flagged": false,
+        "case": "CASE-1"
+      },
+      {
+        "id": "CUS-910",
+        "type": "customer",
+        "label": "CUS-910",
+        "name": "Mohan Lal",
+        "dob": "1980-02-11",
+        "phone": "+91 991000091012",
+        "email": "u910@mail.com",
+        "address": "910 Mount Rd, Chennai",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "ACC-910",
+        "type": "account",
+        "label": "ACC-910",
+        "flagged": true,
+        "case": "CASE-2"
+      },
+      {
+        "id": "DEV-910",
+        "type": "device",
+        "label": "DEV-910",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "IP-910",
+        "type": "ip",
+        "label": "IP-910",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "CUS-911",
+        "type": "customer",
+        "label": "CUS-911",
+        "name": "Rekha Bose",
+        "dob": "1981-03-12",
+        "phone": "+91 991100091112",
+        "email": "u911@mail.com",
+        "address": "911 Mount Rd, Chennai",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "ACC-911",
+        "type": "account",
+        "label": "ACC-911",
+        "flagged": true,
+        "case": "CASE-2"
+      },
+      {
+        "id": "DEV-911",
+        "type": "device",
+        "label": "DEV-911",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "IP-911",
+        "type": "ip",
+        "label": "IP-911",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "CUS-912",
+        "type": "customer",
+        "label": "CUS-912",
+        "name": "Tariq Ali",
+        "dob": "1982-04-13",
+        "phone": "+91 991200091212",
+        "email": "u912@mail.com",
+        "address": "912 Mount Rd, Chennai",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "ACC-912",
+        "type": "account",
+        "label": "ACC-912",
+        "flagged": true,
+        "case": "CASE-2"
+      },
+      {
+        "id": "DEV-912",
+        "type": "device",
+        "label": "DEV-912",
+        "flagged": false,
+        "case": "CASE-2"
+      },
+      {
+        "id": "IP-912",
+        "type": "ip",
+        "label": "IP-912",
+        "flagged": false,
+        "case": "CASE-2"
+      }
+    ],
+    "links": [
+      {
+        "source": "CUS-1000",
+        "target": "ACC-2000",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1000",
+        "target": "DEV-100",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1000",
+        "target": "IP-100",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1001",
+        "target": "ACC-2001",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1001",
+        "target": "DEV-101",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1001",
+        "target": "IP-101",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1002",
+        "target": "ACC-2002",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1002",
+        "target": "DEV-102",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1002",
+        "target": "IP-102",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1003",
+        "target": "ACC-2003",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1003",
+        "target": "DEV-103",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1003",
+        "target": "IP-103",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1004",
+        "target": "ACC-2004",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1004",
+        "target": "DEV-104",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1004",
+        "target": "IP-104",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1005",
+        "target": "ACC-2005",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1005",
+        "target": "DEV-105",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1005",
+        "target": "IP-105",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1006",
+        "target": "ACC-2006",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1006",
+        "target": "DEV-106",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1006",
+        "target": "IP-106",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1007",
+        "target": "ACC-2007",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1007",
+        "target": "DEV-107",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1007",
+        "target": "IP-107",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1008",
+        "target": "ACC-2008",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1008",
+        "target": "DEV-108",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1008",
+        "target": "IP-108",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1009",
+        "target": "ACC-2009",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1009",
+        "target": "DEV-109",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1009",
+        "target": "IP-109",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1010",
+        "target": "ACC-2010",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1010",
+        "target": "DEV-110",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1010",
+        "target": "IP-110",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1011",
+        "target": "ACC-2011",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1011",
+        "target": "DEV-111",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1011",
+        "target": "IP-111",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1012",
+        "target": "ACC-2012",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1012",
+        "target": "DEV-112",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1012",
+        "target": "IP-112",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1013",
+        "target": "ACC-2013",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1013",
+        "target": "DEV-113",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1013",
+        "target": "IP-113",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1014",
+        "target": "ACC-2014",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1014",
+        "target": "DEV-114",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1014",
+        "target": "IP-114",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1015",
+        "target": "ACC-2015",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1015",
+        "target": "DEV-115",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1015",
+        "target": "IP-115",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1016",
+        "target": "ACC-2016",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1016",
+        "target": "DEV-116",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1016",
+        "target": "IP-116",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1017",
+        "target": "ACC-2017",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1017",
+        "target": "DEV-117",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1017",
+        "target": "IP-117",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1018",
+        "target": "ACC-2018",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1018",
+        "target": "DEV-118",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1018",
+        "target": "IP-118",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1019",
+        "target": "ACC-2019",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1019",
+        "target": "DEV-119",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1019",
+        "target": "IP-119",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1020",
+        "target": "ACC-2020",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1020",
+        "target": "DEV-120",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1020",
+        "target": "IP-120",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1021",
+        "target": "ACC-2021",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1021",
+        "target": "DEV-121",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1021",
+        "target": "IP-121",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1022",
+        "target": "ACC-2022",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1022",
+        "target": "DEV-122",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1022",
+        "target": "IP-122",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1023",
+        "target": "ACC-2023",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1023",
+        "target": "DEV-123",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1023",
+        "target": "IP-123",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1024",
+        "target": "ACC-2024",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1024",
+        "target": "DEV-124",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1024",
+        "target": "IP-124",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1025",
+        "target": "ACC-2025",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1025",
+        "target": "DEV-125",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1025",
+        "target": "IP-125",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1026",
+        "target": "ACC-2026",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1026",
+        "target": "DEV-126",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1026",
+        "target": "IP-126",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1027",
+        "target": "ACC-2027",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1027",
+        "target": "DEV-127",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1027",
+        "target": "IP-127",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1028",
+        "target": "ACC-2028",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1028",
+        "target": "DEV-128",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1028",
+        "target": "IP-128",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1029",
+        "target": "ACC-2029",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1029",
+        "target": "DEV-129",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1029",
+        "target": "IP-129",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1030",
+        "target": "ACC-2030",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1030",
+        "target": "DEV-130",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1030",
+        "target": "IP-130",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1031",
+        "target": "ACC-2031",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1031",
+        "target": "DEV-131",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1031",
+        "target": "IP-131",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1032",
+        "target": "ACC-2032",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1032",
+        "target": "DEV-132",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1032",
+        "target": "IP-132",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1033",
+        "target": "ACC-2033",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1033",
+        "target": "DEV-133",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1033",
+        "target": "IP-133",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1034",
+        "target": "ACC-2034",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1034",
+        "target": "DEV-134",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1034",
+        "target": "IP-134",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1035",
+        "target": "ACC-2035",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1035",
+        "target": "DEV-135",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1035",
+        "target": "IP-135",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1036",
+        "target": "ACC-2036",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1036",
+        "target": "DEV-136",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1036",
+        "target": "IP-136",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1037",
+        "target": "ACC-2037",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1037",
+        "target": "DEV-137",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1037",
+        "target": "IP-137",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1038",
+        "target": "ACC-2038",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1038",
+        "target": "DEV-138",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1038",
+        "target": "IP-138",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1039",
+        "target": "ACC-2039",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1039",
+        "target": "DEV-139",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1039",
+        "target": "IP-139",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1001",
+        "target": "DEV-100",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1001",
+        "target": "IP-100",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-1100",
+        "target": "ACC-2020",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1101",
+        "target": "ACC-205",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1101",
+        "target": "IP-205",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "ACC-2025",
+        "target": "ACC-2029",
+        "type": "TRANSFER",
+        "amount": 674.15,
+        "ts": "2026-10-10T03:35",
+        "txn": "TXN-001"
+      },
+      {
+        "source": "ACC-2008",
+        "target": "ACC-2010",
+        "type": "TRANSFER",
+        "amount": 44.24,
+        "ts": "2026-09-23T17:07",
+        "txn": "TXN-002"
+      },
+      {
+        "source": "ACC-2009",
+        "target": "ACC-2039",
+        "type": "TRANSFER",
+        "amount": 747.33,
+        "ts": "2026-09-26T10:34",
+        "txn": "TXN-003"
+      },
+      {
+        "source": "ACC-2009",
+        "target": "ACC-2022",
+        "type": "TRANSFER",
+        "amount": 502.82,
+        "ts": "2026-10-08T08:17",
+        "txn": "TXN-004"
+      },
+      {
+        "source": "ACC-2000",
+        "target": "ACC-2006",
+        "type": "TRANSFER",
+        "amount": 483.39,
+        "ts": "2026-10-07T18:12",
+        "txn": "TXN-005"
+      },
+      {
+        "source": "ACC-2012",
+        "target": "ACC-2013",
+        "type": "TRANSFER",
+        "amount": 44.63,
+        "ts": "2026-10-05T23:01",
+        "txn": "TXN-006"
+      },
+      {
+        "source": "ACC-2015",
+        "target": "ACC-2032",
+        "type": "TRANSFER",
+        "amount": 692.04,
+        "ts": "2026-10-02T00:09",
+        "txn": "TXN-007"
+      },
+      {
+        "source": "ACC-2026",
+        "target": "ACC-2034",
+        "type": "TRANSFER",
+        "amount": 754.09,
+        "ts": "2026-10-10T20:56",
+        "txn": "TXN-008"
+      },
+      {
+        "source": "ACC-2029",
+        "target": "ACC-2037",
+        "type": "TRANSFER",
+        "amount": 737.24,
+        "ts": "2026-09-25T18:39",
+        "txn": "TXN-009"
+      },
+      {
+        "source": "ACC-2008",
+        "target": "ACC-2032",
+        "type": "TRANSFER",
+        "amount": 488.01,
+        "ts": "2026-09-25T15:35",
+        "txn": "TXN-010"
+      },
+      {
+        "source": "ACC-2001",
+        "target": "ACC-2028",
+        "type": "TRANSFER",
+        "amount": 703.33,
+        "ts": "2026-09-23T08:52",
+        "txn": "TXN-011"
+      },
+      {
+        "source": "ACC-2009",
+        "target": "ACC-2011",
+        "type": "TRANSFER",
+        "amount": 144.57,
+        "ts": "2026-09-23T04:54",
+        "txn": "TXN-012"
+      },
+      {
+        "source": "ACC-2003",
+        "target": "ACC-2035",
+        "type": "TRANSFER",
+        "amount": 306.86,
+        "ts": "2026-09-25T14:54",
+        "txn": "TXN-013"
+      },
+      {
+        "source": "ACC-2030",
+        "target": "ACC-2035",
+        "type": "TRANSFER",
+        "amount": 710.16,
+        "ts": "2026-10-08T13:53",
+        "txn": "TXN-014"
+      },
+      {
+        "source": "ACC-2003",
+        "target": "ACC-2015",
+        "type": "TRANSFER",
+        "amount": 188.35,
+        "ts": "2026-10-11T05:40",
+        "txn": "TXN-015"
+      },
+      {
+        "source": "ACC-2004",
+        "target": "ACC-2028",
+        "type": "TRANSFER",
+        "amount": 306.54,
+        "ts": "2026-09-25T12:19",
+        "txn": "TXN-016"
+      },
+      {
+        "source": "ACC-2032",
+        "target": "ACC-2034",
+        "type": "TRANSFER",
+        "amount": 730.48,
+        "ts": "2026-09-26T00:33",
+        "txn": "TXN-017"
+      },
+      {
+        "source": "ACC-2016",
+        "target": "ACC-2033",
+        "type": "TRANSFER",
+        "amount": 832.05,
+        "ts": "2026-10-05T17:44",
+        "txn": "TXN-018"
+      },
+      {
+        "source": "ACC-2008",
+        "target": "ACC-2026",
+        "type": "TRANSFER",
+        "amount": 127.03,
+        "ts": "2026-09-27T22:13",
+        "txn": "TXN-019"
+      },
+      {
+        "source": "ACC-2004",
+        "target": "ACC-2015",
+        "type": "TRANSFER",
+        "amount": 396.94,
+        "ts": "2026-10-05T10:09",
+        "txn": "TXN-020"
+      },
+      {
+        "source": "ACC-2007",
+        "target": "ACC-2019",
+        "type": "TRANSFER",
+        "amount": 809.38,
+        "ts": "2026-10-07T11:03",
+        "txn": "TXN-021"
+      },
+      {
+        "source": "ACC-2009",
+        "target": "ACC-2023",
+        "type": "TRANSFER",
+        "amount": 242.73,
+        "ts": "2026-10-07T17:03",
+        "txn": "TXN-022"
+      },
+      {
+        "source": "ACC-2006",
+        "target": "ACC-2014",
+        "type": "TRANSFER",
+        "amount": 370.47,
+        "ts": "2026-09-27T03:27",
+        "txn": "TXN-023"
+      },
+      {
+        "source": "ACC-2010",
+        "target": "ACC-2014",
+        "type": "TRANSFER",
+        "amount": 641.56,
+        "ts": "2026-09-25T19:13",
+        "txn": "TXN-024"
+      },
+      {
+        "source": "ACC-2021",
+        "target": "ACC-2026",
+        "type": "TRANSFER",
+        "amount": 192.26,
+        "ts": "2026-10-02T05:52",
+        "txn": "TXN-025"
+      },
+      {
+        "source": "ACC-2001",
+        "target": "ACC-2023",
+        "type": "TRANSFER",
+        "amount": 317.42,
+        "ts": "2026-09-27T17:58",
+        "txn": "TXN-026"
+      },
+      {
+        "source": "ACC-2001",
+        "target": "ACC-2024",
+        "type": "TRANSFER",
+        "amount": 311.72,
+        "ts": "2026-09-22T22:55",
+        "txn": "TXN-027"
+      },
+      {
+        "source": "ACC-2005",
+        "target": "ACC-2006",
+        "type": "TRANSFER",
+        "amount": 253.7,
+        "ts": "2026-10-11T02:49",
+        "txn": "TXN-028"
+      },
+      {
+        "source": "ACC-2008",
+        "target": "ACC-2017",
+        "type": "TRANSFER",
+        "amount": 741.4,
+        "ts": "2026-10-03T19:09",
+        "txn": "TXN-029"
+      },
+      {
+        "source": "ACC-2032",
+        "target": "ACC-2036",
+        "type": "TRANSFER",
+        "amount": 455.26,
+        "ts": "2026-10-02T05:57",
+        "txn": "TXN-030"
+      },
+      {
+        "source": "ACC-2003",
+        "target": "ACC-2017",
+        "type": "TRANSFER",
+        "amount": 723.64,
+        "ts": "2026-10-06T18:29",
+        "txn": "TXN-031"
+      },
+      {
+        "source": "ACC-2001",
+        "target": "ACC-2005",
+        "type": "TRANSFER",
+        "amount": 725.43,
+        "ts": "2026-10-09T12:15",
+        "txn": "TXN-032"
+      },
+      {
+        "source": "ACC-2007",
+        "target": "ACC-2016",
+        "type": "TRANSFER",
+        "amount": 419.32,
+        "ts": "2026-10-01T14:08",
+        "txn": "TXN-033"
+      },
+      {
+        "source": "ACC-2008",
+        "target": "ACC-2039",
+        "type": "TRANSFER",
+        "amount": 58.02,
+        "ts": "2026-10-05T05:16",
+        "txn": "TXN-034"
+      },
+      {
+        "source": "ACC-2010",
+        "target": "ACC-2016",
+        "type": "TRANSFER",
+        "amount": 64.33,
+        "ts": "2026-10-05T22:22",
+        "txn": "TXN-035"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2033",
+        "type": "PAYS",
+        "amount": 307.41,
+        "ts": "2026-10-02T17:48",
+        "txn": "TXN-036"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-2017",
+        "type": "PAYS",
+        "amount": 148.6,
+        "ts": "2026-10-12T00:28",
+        "txn": "TXN-037"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2000",
+        "type": "PAYS",
+        "amount": 22.1,
+        "ts": "2026-09-25T14:12",
+        "txn": "TXN-038"
+      },
+      {
+        "source": "MER-4",
+        "target": "ACC-2032",
+        "type": "PAYS",
+        "amount": 197.78,
+        "ts": "2026-09-28T05:23",
+        "txn": "TXN-039"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2031",
+        "type": "PAYS",
+        "amount": 225.17,
+        "ts": "2026-09-29T15:43",
+        "txn": "TXN-040"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2013",
+        "type": "PAYS",
+        "amount": 393.24,
+        "ts": "2026-10-02T02:14",
+        "txn": "TXN-041"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-2025",
+        "type": "PAYS",
+        "amount": 395.93,
+        "ts": "2026-10-11T04:35",
+        "txn": "TXN-042"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2004",
+        "type": "PAYS",
+        "amount": 255.8,
+        "ts": "2026-10-03T18:18",
+        "txn": "TXN-043"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-2003",
+        "type": "PAYS",
+        "amount": 47.53,
+        "ts": "2026-09-29T15:44",
+        "txn": "TXN-044"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2038",
+        "type": "PAYS",
+        "amount": 108.25,
+        "ts": "2026-10-03T07:28",
+        "txn": "TXN-045"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2011",
+        "type": "PAYS",
+        "amount": 75.65,
+        "ts": "2026-09-28T08:53",
+        "txn": "TXN-046"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2023",
+        "type": "PAYS",
+        "amount": 385.29,
+        "ts": "2026-09-24T21:58",
+        "txn": "TXN-047"
+      },
+      {
+        "source": "MER-4",
+        "target": "ACC-2002",
+        "type": "PAYS",
+        "amount": 386.78,
+        "ts": "2026-10-03T01:34",
+        "txn": "TXN-048"
+      },
+      {
+        "source": "MER-6",
+        "target": "ACC-2011",
+        "type": "PAYS",
+        "amount": 15.41,
+        "ts": "2026-09-30T06:09",
+        "txn": "TXN-049"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2017",
+        "type": "PAYS",
+        "amount": 208.56,
+        "ts": "2026-10-06T00:32",
+        "txn": "TXN-050"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2005",
+        "type": "PAYS",
+        "amount": 116.7,
+        "ts": "2026-10-10T04:06",
+        "txn": "TXN-051"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2037",
+        "type": "PAYS",
+        "amount": 31.04,
+        "ts": "2026-10-11T22:47",
+        "txn": "TXN-052"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2014",
+        "type": "PAYS",
+        "amount": 47.53,
+        "ts": "2026-09-26T03:43",
+        "txn": "TXN-053"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2020",
+        "type": "PAYS",
+        "amount": 292.46,
+        "ts": "2026-09-27T03:54",
+        "txn": "TXN-054"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2039",
+        "type": "PAYS",
+        "amount": 262.64,
+        "ts": "2026-10-10T15:30",
+        "txn": "TXN-055"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2032",
+        "type": "PAYS",
+        "amount": 68.63,
+        "ts": "2026-09-25T15:48",
+        "txn": "TXN-056"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2037",
+        "type": "PAYS",
+        "amount": 322.22,
+        "ts": "2026-09-22T01:10",
+        "txn": "TXN-057"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2001",
+        "type": "PAYS",
+        "amount": 31.12,
+        "ts": "2026-09-21T20:42",
+        "txn": "TXN-058"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2024",
+        "type": "PAYS",
+        "amount": 336.79,
+        "ts": "2026-09-25T07:17",
+        "txn": "TXN-059"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2034",
+        "type": "PAYS",
+        "amount": 277.06,
+        "ts": "2026-09-27T00:00",
+        "txn": "TXN-060"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2029",
+        "type": "PAYS",
+        "amount": 322.11,
+        "ts": "2026-09-25T14:44",
+        "txn": "TXN-061"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2033",
+        "type": "PAYS",
+        "amount": 40.43,
+        "ts": "2026-09-27T00:24",
+        "txn": "TXN-062"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2016",
+        "type": "PAYS",
+        "amount": 105.39,
+        "ts": "2026-10-06T01:08",
+        "txn": "TXN-063"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2031",
+        "type": "PAYS",
+        "amount": 340.53,
+        "ts": "2026-10-09T16:39",
+        "txn": "TXN-064"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2002",
+        "type": "PAYS",
+        "amount": 252.53,
+        "ts": "2026-09-22T02:14",
+        "txn": "TXN-065"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2038",
+        "type": "PAYS",
+        "amount": 71.76,
+        "ts": "2026-10-03T10:46",
+        "txn": "TXN-066"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2039",
+        "type": "PAYS",
+        "amount": 233.59,
+        "ts": "2026-10-11T16:33",
+        "txn": "TXN-067"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2031",
+        "type": "PAYS",
+        "amount": 118.48,
+        "ts": "2026-10-09T01:35",
+        "txn": "TXN-068"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2018",
+        "type": "PAYS",
+        "amount": 287.92,
+        "ts": "2026-10-02T17:09",
+        "txn": "TXN-069"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2029",
+        "type": "PAYS",
+        "amount": 310.36,
+        "ts": "2026-09-25T02:12",
+        "txn": "TXN-070"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-2005",
+        "type": "PAYS",
+        "amount": 375.46,
+        "ts": "2026-10-11T23:07",
+        "txn": "TXN-071"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2004",
+        "type": "PAYS",
+        "amount": 330.66,
+        "ts": "2026-09-27T23:50",
+        "txn": "TXN-072"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2013",
+        "type": "PAYS",
+        "amount": 367.87,
+        "ts": "2026-10-06T06:28",
+        "txn": "TXN-073"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2009",
+        "type": "PAYS",
+        "amount": 302.78,
+        "ts": "2026-10-03T20:44",
+        "txn": "TXN-074"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-2038",
+        "type": "PAYS",
+        "amount": 330.78,
+        "ts": "2026-09-25T23:28",
+        "txn": "TXN-075"
+      },
+      {
+        "source": "MER-2",
+        "target": "ACC-2023",
+        "type": "PAYS",
+        "amount": 104.08,
+        "ts": "2026-09-26T19:33",
+        "txn": "TXN-076"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2010",
+        "type": "PAYS",
+        "amount": 16.38,
+        "ts": "2026-09-26T09:45",
+        "txn": "TXN-077"
+      },
+      {
+        "source": "MER-8",
+        "target": "ACC-2025",
+        "type": "PAYS",
+        "amount": 131.25,
+        "ts": "2026-10-07T18:48",
+        "txn": "TXN-078"
+      },
+      {
+        "source": "MER-6",
+        "target": "ACC-2024",
+        "type": "PAYS",
+        "amount": 136.69,
+        "ts": "2026-10-02T08:57",
+        "txn": "TXN-079"
+      },
+      {
+        "source": "MER-6",
+        "target": "ACC-2021",
+        "type": "PAYS",
+        "amount": 338.06,
+        "ts": "2026-10-09T02:20",
+        "txn": "TXN-080"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2018",
+        "type": "PAYS",
+        "amount": 112.49,
+        "ts": "2026-10-09T19:36",
+        "txn": "TXN-081"
+      },
+      {
+        "source": "MER-7",
+        "target": "ACC-2037",
+        "type": "PAYS",
+        "amount": 44.41,
+        "ts": "2026-09-28T23:37",
+        "txn": "TXN-082"
+      },
+      {
+        "source": "MER-1",
+        "target": "ACC-2017",
+        "type": "PAYS",
+        "amount": 54.16,
+        "ts": "2026-10-02T11:20",
+        "txn": "TXN-083"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-2015",
+        "type": "PAYS",
+        "amount": 388.85,
+        "ts": "2026-09-28T15:34",
+        "txn": "TXN-084"
+      },
+      {
+        "source": "MER-6",
+        "target": "ACC-2012",
+        "type": "PAYS",
+        "amount": 312.68,
+        "ts": "2026-09-29T08:01",
+        "txn": "TXN-085"
+      },
+      {
+        "source": "CUS-1",
+        "target": "ACC-101",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-2",
+        "target": "ACC-102",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-3",
+        "target": "ACC-103",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-900",
+        "target": "ACC-900",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-950",
+        "target": "ACC-950",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-1",
+        "target": "DEV-7",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-2",
+        "target": "DEV-7",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-3",
+        "target": "DEV-8",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-900",
+        "target": "DEV-900",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-950",
+        "target": "DEV-950",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-1",
+        "target": "IP-55",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-2",
+        "target": "IP-55",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-3",
+        "target": "IP-55",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-900",
+        "target": "IP-900",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-950",
+        "target": "IP-950",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "MER-3",
+        "target": "ACC-101",
+        "type": "PAYS",
+        "amount": 5000,
+        "ts": "2026-10-13T07:30",
+        "txn": "TXN-086"
+      },
+      {
+        "source": "MER-5",
+        "target": "ACC-102",
+        "type": "PAYS",
+        "amount": 4900,
+        "ts": "2026-10-13T07:40",
+        "txn": "TXN-087"
+      },
+      {
+        "source": "MER-6",
+        "target": "ACC-103",
+        "type": "PAYS",
+        "amount": 5000,
+        "ts": "2026-10-13T07:50",
+        "txn": "TXN-088"
+      },
+      {
+        "source": "ACC-101",
+        "target": "ACC-900",
+        "type": "TRANSFER",
+        "amount": 4900,
+        "ts": "2026-10-13T09:00",
+        "txn": "TXN-089"
+      },
+      {
+        "source": "ACC-102",
+        "target": "ACC-900",
+        "type": "TRANSFER",
+        "amount": 4800,
+        "ts": "2026-10-13T09:07",
+        "txn": "TXN-090"
+      },
+      {
+        "source": "ACC-103",
+        "target": "ACC-900",
+        "type": "TRANSFER",
+        "amount": 4950,
+        "ts": "2026-10-13T09:15",
+        "txn": "TXN-091"
+      },
+      {
+        "source": "ACC-900",
+        "target": "ACC-950",
+        "type": "TRANSFER",
+        "amount": 14200,
+        "ts": "2026-10-13T09:22",
+        "txn": "TXN-092"
+      },
+      {
+        "source": "CUS-910",
+        "target": "ACC-910",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-910",
+        "target": "DEV-910",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-910",
+        "target": "IP-910",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-911",
+        "target": "ACC-911",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-911",
+        "target": "DEV-911",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-911",
+        "target": "IP-911",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "CUS-912",
+        "target": "ACC-912",
+        "type": "OWNS"
+      },
+      {
+        "source": "CUS-912",
+        "target": "DEV-912",
+        "type": "USES"
+      },
+      {
+        "source": "CUS-912",
+        "target": "IP-912",
+        "type": "LOGIN_FROM"
+      },
+      {
+        "source": "ACC-910",
+        "target": "ACC-911",
+        "type": "TRANSFER",
+        "amount": 9000,
+        "ts": "2026-10-15T09:00",
+        "txn": "TXN-093"
+      },
+      {
+        "source": "ACC-911",
+        "target": "ACC-912",
+        "type": "TRANSFER",
+        "amount": 8900,
+        "ts": "2026-10-15T11:00",
+        "txn": "TXN-094"
+      },
+      {
+        "source": "ACC-912",
+        "target": "ACC-910",
+        "type": "TRANSFER",
+        "amount": 8800,
+        "ts": "2026-10-15T13:00",
+        "txn": "TXN-095"
+      },
+      {
+        "source": "CUS-1020",
+        "target": "CUS-1100",
+        "type": "SAME_AS",
+        "confidence": 1.0,
+        "reasons": [
+          "names similar (Sivakumar / S. Kumar)",
+          "same date of birth",
+          "same phone number",
+          "same email",
+          "same address",
+          "same account identifier"
+        ]
+      },
+      {
+        "source": "CUS-1",
+        "target": "CUS-3",
+        "type": "SAME_AS",
+        "confidence": 0.75,
+        "reasons": [
+          "names similar (Arjun Mehta / Arjun K. Mehta)",
+          "same date of birth",
+          "same phone number",
+          "same address"
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "CASE-1",
+      "score": 100,
+      "level": "high",
+      "signals": {
+        "shared_device": 25,
+        "shared_ip": 15,
+        "same_entity": 20,
+        "fan_in": 25,
+        "pass_through": 30,
+        "rapid_movement": 15,
+        "anomaly": 15
+      },
+      "entities": 17
+    },
+    {
+      "id": "CASE-2",
+      "score": 60,
+      "level": "high",
+      "signals": {
+        "pass_through": 25,
+        "anomaly": 15,
+        "circular_flow": 20
+      },
+      "entities": 12
+    },
+    {
+      "id": "CASE-3",
+      "score": 20,
+      "level": "low",
+      "signals": {
+        "same_entity": 20
+      },
+      "entities": 2
+    },
+    {
+      "id": "CASE-4",
+      "score": 10,
+      "level": "low",
+      "signals": {
+        "shared_device": 5,
+        "shared_ip": 5
+      },
+      "entities": 4
+    }
+  ],
+  "pipeline": {
+    "stages": [
+      {
+        "name": "Data collection",
+        "stat": "50 customers, 49 accounts, 47 devices, 47 IPs, 8 merchants, 95 transactions"
+      },
+      {
+        "name": "Entity resolution",
+        "stat": "1225 pairs compared, 2 same-person links, 2 need verification, 5 look-alikes rejected"
+      },
+      {
+        "name": "Graph",
+        "stat": "201 nodes, 246 relationships"
+      },
+      {
+        "name": "Anomalies",
+        "stat": "23 findings: 2 shared device, 2 shared ip, 2 same entity, 1 fan in, 6 pass through, 1 rapid movement, 8 anomaly, 1 circular flow"
+      },
+      {
+        "name": "AI investigation",
+        "stat": "4 cases, 0 investigated"
+      },
+      {
+        "name": "Report",
+        "stat": "Top risk 100/100 (CASE-1)"
+      }
+    ],
+    "resolution": {
+      "matches": [
+        {
+          "a": "CUS-1020",
+          "b": "CUS-1100",
+          "confidence": 1.0,
+          "reasons": [
+            "names similar (Sivakumar / S. Kumar)",
+            "same date of birth",
+            "same phone number",
+            "same email",
+            "same address",
+            "same account identifier"
+          ]
+        },
+        {
+          "a": "CUS-1",
+          "b": "CUS-3",
+          "confidence": 0.75,
+          "reasons": [
+            "names similar (Arjun Mehta / Arjun K. Mehta)",
+            "same date of birth",
+            "same phone number",
+            "same address"
+          ]
+        }
+      ],
+      "review": [
+        {
+          "a": "CUS-1020",
+          "b": "CUS-1101",
+          "score": 0.34,
+          "why": "Names similar and same address, but date of birth, phone number, email, account identifier do not match - verify before linking."
+        },
+        {
+          "a": "CUS-1100",
+          "b": "CUS-1101",
+          "score": 0.4,
+          "why": "Names similar and same address, but date of birth, phone number, email, account identifier do not match - verify before linking."
+        }
+      ],
+      "rejected": [
+        {
+          "a": "CUS-1010",
+          "b": "CUS-1",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        },
+        {
+          "a": "CUS-1010",
+          "b": "CUS-3",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        },
+        {
+          "a": "CUS-1012",
+          "b": "CUS-1031",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        },
+        {
+          "a": "CUS-1015",
+          "b": "CUS-1019",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        },
+        {
+          "a": "CUS-1023",
+          "b": "CUS-1024",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        }
+      ],
+      "compared": 1225
+    }
+  },
+  "evidences": {
+    "CASE-1": {
+      "case_id": "CASE-1",
+      "risk_score": 100,
+      "signal_points": {
+        "shared_device": 25,
+        "shared_ip": 15,
+        "same_entity": 20,
+        "fan_in": 25,
+        "pass_through": 30,
+        "rapid_movement": 15,
+        "anomaly": 15
+      },
+      "mitigating_findings": [],
+      "entities": [
+        {
+          "id": "ACC-101",
+          "type": "account"
+        },
+        {
+          "id": "ACC-102",
+          "type": "account"
+        },
+        {
+          "id": "ACC-103",
+          "type": "account"
+        },
+        {
+          "id": "ACC-900",
+          "type": "account"
+        },
+        {
+          "id": "ACC-950",
+          "type": "account"
+        },
+        {
+          "id": "CUS-1",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-2",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-3",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-900",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-950",
+          "type": "customer"
+        },
+        {
+          "id": "DEV-7",
+          "type": "device"
+        },
+        {
+          "id": "DEV-8",
+          "type": "device"
+        },
+        {
+          "id": "DEV-900",
+          "type": "device"
+        },
+        {
+          "id": "DEV-950",
+          "type": "device"
+        },
+        {
+          "id": "IP-55",
+          "type": "ip"
+        },
+        {
+          "id": "IP-900",
+          "type": "ip"
+        },
+        {
+          "id": "IP-950",
+          "type": "ip"
+        }
+      ],
+      "customer_profiles": [
+        {
+          "id": "CUS-1",
+          "name": "Arjun Mehta",
+          "dob": "1990-04-12",
+          "address": "12 Lake View Road, Chennai"
+        },
+        {
+          "id": "CUS-2",
+          "name": "Priya Nair",
+          "dob": "1993-08-30",
+          "address": "44 Beach Rd, Chennai"
+        },
+        {
+          "id": "CUS-3",
+          "name": "Arjun K. Mehta",
+          "dob": "1990-04-12",
+          "address": "12 Lakeview Rd, Chennai"
+        },
+        {
+          "id": "CUS-900",
+          "name": "Vikram Rao",
+          "dob": "1979-11-03",
+          "address": "9 Temple St, Chennai"
+        },
+        {
+          "id": "CUS-950",
+          "name": "Sana Iqbal",
+          "dob": "1988-01-21",
+          "address": "31 Gandhi St, Chennai"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "CUS-1",
+          "to": "ACC-101",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-1",
+          "to": "DEV-7",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-1",
+          "to": "IP-55",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-1",
+          "to": "CUS-3",
+          "type": "SAME_AS",
+          "confidence": 0.75,
+          "reasons": [
+            "names similar (Arjun Mehta / Arjun K. Mehta)",
+            "same date of birth",
+            "same phone number",
+            "same address"
+          ]
+        },
+        {
+          "from": "CUS-2",
+          "to": "ACC-102",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-2",
+          "to": "DEV-7",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-2",
+          "to": "IP-55",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-3",
+          "to": "ACC-103",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-3",
+          "to": "DEV-8",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-3",
+          "to": "IP-55",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-900",
+          "to": "ACC-900",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-900",
+          "to": "DEV-900",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-900",
+          "to": "IP-900",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-950",
+          "to": "ACC-950",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-950",
+          "to": "DEV-950",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-950",
+          "to": "IP-950",
+          "type": "LOGIN_FROM"
+        }
+      ],
+      "transactions": [
+        {
+          "txn": "TXN-089",
+          "source": "ACC-101",
+          "target": "ACC-900",
+          "amount": 4900,
+          "ts": "2026-10-13T09:00",
+          "type": "TRANSFER"
+        },
+        {
+          "txn": "TXN-090",
+          "source": "ACC-102",
+          "target": "ACC-900",
+          "amount": 4800,
+          "ts": "2026-10-13T09:07",
+          "type": "TRANSFER"
+        },
+        {
+          "txn": "TXN-091",
+          "source": "ACC-103",
+          "target": "ACC-900",
+          "amount": 4950,
+          "ts": "2026-10-13T09:15",
+          "type": "TRANSFER"
+        },
+        {
+          "txn": "TXN-092",
+          "source": "ACC-900",
+          "target": "ACC-950",
+          "amount": 14200,
+          "ts": "2026-10-13T09:22",
+          "type": "TRANSFER"
+        }
+      ],
+      "findings": [
+        {
+          "id": "F-03",
+          "type": "shared_device",
+          "weight": 25,
+          "benign": false,
+          "entities": [
+            "CUS-1",
+            "CUS-2",
+            "DEV-7"
+          ],
+          "txns": [],
+          "description": "2 customers (CUS-1, CUS-2) share device DEV-7."
+        },
+        {
+          "id": "F-04",
+          "type": "shared_ip",
+          "weight": 15,
+          "benign": false,
+          "entities": [
+            "CUS-1",
+            "CUS-2",
+            "CUS-3",
+            "IP-55"
+          ],
+          "txns": [],
+          "description": "3 customers (CUS-1, CUS-2, CUS-3) share ip IP-55."
+        },
+        {
+          "id": "F-06",
+          "type": "same_entity",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "CUS-1",
+            "CUS-3"
+          ],
+          "txns": [],
+          "description": "CUS-1 and CUS-3 look like the same person (confidence 75%): names similar (Arjun Mehta / Arjun K. Mehta); same date of birth; same phone number; same address."
+        },
+        {
+          "id": "F-07",
+          "type": "fan_in",
+          "weight": 25,
+          "benign": false,
+          "entities": [
+            "ACC-101",
+            "ACC-102",
+            "ACC-103",
+            "ACC-900",
+            "ACC-950"
+          ],
+          "txns": [
+            "TXN-089",
+            "TXN-090",
+            "TXN-091",
+            "TXN-092"
+          ],
+          "description": "ACC-900 receives money from 3 different accounts (ACC-101, ACC-102, ACC-103). It then forwarded 14,200 to ACC-950."
+        },
+        {
+          "id": "F-08",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-101"
+          ],
+          "txns": [
+            "TXN-086",
+            "TXN-089"
+          ],
+          "description": "ACC-101 passed on 98% of what it received (in 5,000, out 4,900) within 1.5h."
+        },
+        {
+          "id": "F-09",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-102"
+          ],
+          "txns": [
+            "TXN-087",
+            "TXN-090"
+          ],
+          "description": "ACC-102 passed on 98% of what it received (in 4,900, out 4,800) within 1.4h."
+        },
+        {
+          "id": "F-10",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-103"
+          ],
+          "txns": [
+            "TXN-088",
+            "TXN-091"
+          ],
+          "description": "ACC-103 passed on 99% of what it received (in 5,000, out 4,950) within 1.4h."
+        },
+        {
+          "id": "F-11",
+          "type": "rapid_movement",
+          "weight": 15,
+          "benign": false,
+          "entities": [
+            "ACC-900"
+          ],
+          "txns": [
+            "TXN-089",
+            "TXN-090",
+            "TXN-091",
+            "TXN-092"
+          ],
+          "description": "ACC-900 forwarded 97% of incoming funds within 7 minutes."
+        },
+        {
+          "id": "F-12",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-900"
+          ],
+          "txns": [
+            "TXN-089",
+            "TXN-090",
+            "TXN-091",
+            "TXN-092"
+          ],
+          "description": "ACC-900 passed on 97% of what it received (in 14,650, out 14,200) within 0.1h."
+        },
+        {
+          "id": "F-15",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-101"
+          ],
+          "txns": [
+            "TXN-086",
+            "TXN-089"
+          ],
+          "description": "ACC-101 is an outlier vs other accounts: largest transaction 5,000 is 13 robust deviations above the median (in 5,000, out 4,900)."
+        },
+        {
+          "id": "F-16",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-102"
+          ],
+          "txns": [
+            "TXN-087",
+            "TXN-090"
+          ],
+          "description": "ACC-102 is an outlier vs other accounts: largest transaction 4,900 is 13 robust deviations above the median (in 4,900, out 4,800)."
+        },
+        {
+          "id": "F-17",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-103"
+          ],
+          "txns": [
+            "TXN-088",
+            "TXN-091"
+          ],
+          "description": "ACC-103 is an outlier vs other accounts: largest transaction 5,000 is 13 robust deviations above the median (in 5,000, out 4,950)."
+        },
+        {
+          "id": "F-18",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-900"
+          ],
+          "txns": [
+            "TXN-089",
+            "TXN-090",
+            "TXN-091",
+            "TXN-092"
+          ],
+          "description": "ACC-900 is an outlier vs other accounts: largest transaction 14,200 is 41 robust deviations above the median and Isolation Forest also isolates it (in 14,650, out 14,200)."
+        },
+        {
+          "id": "F-22",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-950"
+          ],
+          "txns": [
+            "TXN-092"
+          ],
+          "description": "ACC-950 is an outlier vs other accounts: largest transaction 14,200 is 41 robust deviations above the median and Isolation Forest also isolates it (in 14,200, out 0)."
+        }
+      ],
+      "assessment": {
+        "evidence_strength": "Strong",
+        "risk_level": "high",
+        "risk_score": 100,
+        "confidence": 95,
+        "caveat": "Illustrative score, not a real-world probability of fraud.",
+        "evidence_items": [
+          {
+            "signal": "shared_device",
+            "observation": "2 customers (CUS-1, CUS-2) share device DEV-7.",
+            "strength": "strong",
+            "records": [
+              "CUS-1",
+              "CUS-2",
+              "DEV-7"
+            ]
+          },
+          {
+            "signal": "same_entity",
+            "observation": "CUS-1 and CUS-3 look like the same person (confidence 75%): names similar (Arjun Mehta / Arjun K. Mehta); same date of birth; same phone number; same address.",
+            "strength": "strong",
+            "records": [
+              "CUS-1",
+              "CUS-3"
+            ]
+          },
+          {
+            "signal": "fan_in",
+            "observation": "ACC-900 receives money from 3 different accounts (ACC-101, ACC-102, ACC-103). It then forwarded 14,200 to ACC-950.",
+            "strength": "strong",
+            "records": [
+              "ACC-101",
+              "ACC-102",
+              "ACC-103",
+              "ACC-900",
+              "ACC-950",
+              "TXN-089",
+              "TXN-090",
+              "TXN-091",
+              "TXN-092"
+            ]
+          },
+          {
+            "signal": "rapid_movement",
+            "observation": "ACC-900 forwarded 97% of incoming funds within 7 minutes.",
+            "strength": "strong",
+            "records": [
+              "ACC-900",
+              "TXN-089",
+              "TXN-090",
+              "TXN-091",
+              "TXN-092"
+            ]
+          },
+          {
+            "signal": "shared_ip",
+            "observation": "3 customers (CUS-1, CUS-2, CUS-3) share ip IP-55.",
+            "strength": "moderate",
+            "records": [
+              "CUS-1",
+              "CUS-2",
+              "CUS-3",
+              "IP-55"
+            ]
+          },
+          {
+            "signal": "pass_through",
+            "observation": "ACC-101 passed on 98% of what it received (in 5,000, out 4,900) within 1.5h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-101",
+              "TXN-086",
+              "TXN-089"
+            ]
+          },
+          {
+            "signal": "pass_through",
+            "observation": "ACC-102 passed on 98% of what it received (in 4,900, out 4,800) within 1.4h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-102",
+              "TXN-087",
+              "TXN-090"
+            ]
+          },
+          {
+            "signal": "pass_through",
+            "observation": "ACC-103 passed on 99% of what it received (in 5,000, out 4,950) within 1.4h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-103",
+              "TXN-088",
+              "TXN-091"
+            ]
+          },
+          {
+            "signal": "pass_through",
+            "observation": "ACC-900 passed on 97% of what it received (in 14,650, out 14,200) within 0.1h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-900",
+              "TXN-089",
+              "TXN-090",
+              "TXN-091",
+              "TXN-092"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-101 is an outlier vs other accounts: largest transaction 5,000 is 13 robust deviations above the median (in 5,000, out 4,900).",
+            "strength": "moderate",
+            "records": [
+              "ACC-101",
+              "TXN-086",
+              "TXN-089"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-102 is an outlier vs other accounts: largest transaction 4,900 is 13 robust deviations above the median (in 4,900, out 4,800).",
+            "strength": "moderate",
+            "records": [
+              "ACC-102",
+              "TXN-087",
+              "TXN-090"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-103 is an outlier vs other accounts: largest transaction 5,000 is 13 robust deviations above the median (in 5,000, out 4,950).",
+            "strength": "moderate",
+            "records": [
+              "ACC-103",
+              "TXN-088",
+              "TXN-091"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-900 is an outlier vs other accounts: largest transaction 14,200 is 41 robust deviations above the median and Isolation Forest also isolates it (in 14,650, out 14,200).",
+            "strength": "moderate",
+            "records": [
+              "ACC-900",
+              "TXN-089",
+              "TXN-090",
+              "TXN-091",
+              "TXN-092"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-950 is an outlier vs other accounts: largest transaction 14,200 is 41 robust deviations above the median and Isolation Forest also isolates it (in 14,200, out 0).",
+            "strength": "moderate",
+            "records": [
+              "ACC-950",
+              "TXN-092"
+            ]
+          }
+        ],
+        "alternative_explanations": [
+          {
+            "signal": "shared_device",
+            "explanation": "Customers may be family members or colleagues using one computer or phone.",
+            "verify": "Confirm whether the customers are related and who owns the device."
+          },
+          {
+            "signal": "shared_ip",
+            "explanation": "A shared home, office, caf\u00e9 or mobile carrier gateway can produce one IP for unrelated people.",
+            "verify": "Check IP type (residential vs. VPN/proxy/carrier NAT) and time overlap of logins."
+          },
+          {
+            "signal": "same_entity",
+            "explanation": "A data-entry variant or a re-registration of one genuine customer.",
+            "verify": "Compare KYC documents (ID number, photo) for both records."
+          },
+          {
+            "signal": "fan_in",
+            "explanation": "Family pooling money, rent collection, payroll, or a small business receiving customer payments.",
+            "verify": "Check the relationship and stated purpose of each payment to the beneficiary."
+          },
+          {
+            "signal": "pass_through",
+            "explanation": "A payment aggregator, agent or business account legitimately forwards what it receives.",
+            "verify": "Check if the account type and declared business justify high forwarding."
+          },
+          {
+            "signal": "rapid_movement",
+            "explanation": "An automated sweep or scheduled payout can also move funds within minutes.",
+            "verify": "Check whether the account has a standing instruction or automated payout."
+          },
+          {
+            "signal": "anomaly",
+            "explanation": "A one-off legitimate event (property sale, insurance payout, bonus) can look unusual.",
+            "verify": "Ask for supporting documents for the unusual amount."
+          }
+        ],
+        "next_investigation": [
+          "Review the ownership and login history of the shared device.",
+          "Compare login timestamps across the customers on the shared IP.",
+          "Verify identity documents; merge or flag duplicate customer records.",
+          "Examine the beneficiary's full transaction history and onboarding purpose.",
+          "Review the account's historical in/out pattern for the same behaviour.",
+          "Trace where the forwarded funds went next and whether they were cashed out.",
+          "Compare the account against its own earlier activity and customer profile.",
+          "Review customer complaints and existing alerts for the entities involved.",
+          "Decision stays with a human investigator: this tool recommends, it does not conclude."
+        ]
+      },
+      "rejected_identity_matches": [
+        {
+          "a": "CUS-1010",
+          "b": "CUS-1",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        },
+        {
+          "a": "CUS-1010",
+          "b": "CUS-3",
+          "score": 0.3,
+          "why": "Names look alike but date of birth, phone number, email, address, account identifier differ - treated as different people."
+        }
+      ]
+    },
+    "CASE-2": {
+      "case_id": "CASE-2",
+      "risk_score": 60,
+      "signal_points": {
+        "pass_through": 25,
+        "anomaly": 15,
+        "circular_flow": 20
+      },
+      "mitigating_findings": [],
+      "entities": [
+        {
+          "id": "ACC-910",
+          "type": "account"
+        },
+        {
+          "id": "ACC-911",
+          "type": "account"
+        },
+        {
+          "id": "ACC-912",
+          "type": "account"
+        },
+        {
+          "id": "CUS-910",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-911",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-912",
+          "type": "customer"
+        },
+        {
+          "id": "DEV-910",
+          "type": "device"
+        },
+        {
+          "id": "DEV-911",
+          "type": "device"
+        },
+        {
+          "id": "DEV-912",
+          "type": "device"
+        },
+        {
+          "id": "IP-910",
+          "type": "ip"
+        },
+        {
+          "id": "IP-911",
+          "type": "ip"
+        },
+        {
+          "id": "IP-912",
+          "type": "ip"
+        }
+      ],
+      "customer_profiles": [
+        {
+          "id": "CUS-910",
+          "name": "Mohan Lal",
+          "dob": "1980-02-11",
+          "address": "910 Mount Rd, Chennai"
+        },
+        {
+          "id": "CUS-911",
+          "name": "Rekha Bose",
+          "dob": "1981-03-12",
+          "address": "911 Mount Rd, Chennai"
+        },
+        {
+          "id": "CUS-912",
+          "name": "Tariq Ali",
+          "dob": "1982-04-13",
+          "address": "912 Mount Rd, Chennai"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "CUS-910",
+          "to": "ACC-910",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-910",
+          "to": "DEV-910",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-910",
+          "to": "IP-910",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-911",
+          "to": "ACC-911",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-911",
+          "to": "DEV-911",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-911",
+          "to": "IP-911",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-912",
+          "to": "ACC-912",
+          "type": "OWNS"
+        },
+        {
+          "from": "CUS-912",
+          "to": "DEV-912",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-912",
+          "to": "IP-912",
+          "type": "LOGIN_FROM"
+        }
+      ],
+      "transactions": [
+        {
+          "txn": "TXN-093",
+          "source": "ACC-910",
+          "target": "ACC-911",
+          "amount": 9000,
+          "ts": "2026-10-15T09:00",
+          "type": "TRANSFER"
+        },
+        {
+          "txn": "TXN-094",
+          "source": "ACC-911",
+          "target": "ACC-912",
+          "amount": 8900,
+          "ts": "2026-10-15T11:00",
+          "type": "TRANSFER"
+        },
+        {
+          "txn": "TXN-095",
+          "source": "ACC-912",
+          "target": "ACC-910",
+          "amount": 8800,
+          "ts": "2026-10-15T13:00",
+          "type": "TRANSFER"
+        }
+      ],
+      "findings": [
+        {
+          "id": "F-13",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-911"
+          ],
+          "txns": [
+            "TXN-093",
+            "TXN-094"
+          ],
+          "description": "ACC-911 passed on 99% of what it received (in 9,000, out 8,900) within 2.0h."
+        },
+        {
+          "id": "F-14",
+          "type": "pass_through",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-912"
+          ],
+          "txns": [
+            "TXN-094",
+            "TXN-095"
+          ],
+          "description": "ACC-912 passed on 99% of what it received (in 8,900, out 8,800) within 2.0h."
+        },
+        {
+          "id": "F-19",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-910"
+          ],
+          "txns": [
+            "TXN-093",
+            "TXN-095"
+          ],
+          "description": "ACC-910 is an outlier vs other accounts: largest transaction 9,000 is 25 robust deviations above the median (in 8,800, out 9,000)."
+        },
+        {
+          "id": "F-20",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-911"
+          ],
+          "txns": [
+            "TXN-093",
+            "TXN-094"
+          ],
+          "description": "ACC-911 is an outlier vs other accounts: largest transaction 9,000 is 25 robust deviations above the median (in 9,000, out 8,900)."
+        },
+        {
+          "id": "F-21",
+          "type": "anomaly",
+          "weight": 10,
+          "benign": false,
+          "entities": [
+            "ACC-912"
+          ],
+          "txns": [
+            "TXN-094",
+            "TXN-095"
+          ],
+          "description": "ACC-912 is an outlier vs other accounts: largest transaction 8,900 is 25 robust deviations above the median (in 8,900, out 8,800)."
+        },
+        {
+          "id": "F-23",
+          "type": "circular_flow",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "ACC-910",
+            "ACC-911",
+            "ACC-912"
+          ],
+          "txns": [
+            "TXN-093",
+            "TXN-094",
+            "TXN-095"
+          ],
+          "description": "Money circulates ACC-911 -> ACC-912 -> ACC-910 -> ACC-911."
+        }
+      ],
+      "assessment": {
+        "evidence_strength": "Moderate",
+        "risk_level": "high",
+        "risk_score": 60,
+        "confidence": 40,
+        "caveat": "Illustrative score, not a real-world probability of fraud.",
+        "evidence_items": [
+          {
+            "signal": "pass_through",
+            "observation": "ACC-911 passed on 99% of what it received (in 9,000, out 8,900) within 2.0h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-911",
+              "TXN-093",
+              "TXN-094"
+            ]
+          },
+          {
+            "signal": "pass_through",
+            "observation": "ACC-912 passed on 99% of what it received (in 8,900, out 8,800) within 2.0h.",
+            "strength": "moderate",
+            "records": [
+              "ACC-912",
+              "TXN-094",
+              "TXN-095"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-910 is an outlier vs other accounts: largest transaction 9,000 is 25 robust deviations above the median (in 8,800, out 9,000).",
+            "strength": "moderate",
+            "records": [
+              "ACC-910",
+              "TXN-093",
+              "TXN-095"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-911 is an outlier vs other accounts: largest transaction 9,000 is 25 robust deviations above the median (in 9,000, out 8,900).",
+            "strength": "moderate",
+            "records": [
+              "ACC-911",
+              "TXN-093",
+              "TXN-094"
+            ]
+          },
+          {
+            "signal": "anomaly",
+            "observation": "ACC-912 is an outlier vs other accounts: largest transaction 8,900 is 25 robust deviations above the median (in 8,900, out 8,800).",
+            "strength": "moderate",
+            "records": [
+              "ACC-912",
+              "TXN-094",
+              "TXN-095"
+            ]
+          },
+          {
+            "signal": "circular_flow",
+            "observation": "Money circulates ACC-911 -> ACC-912 -> ACC-910 -> ACC-911.",
+            "strength": "moderate",
+            "records": [
+              "ACC-910",
+              "ACC-911",
+              "ACC-912",
+              "TXN-093",
+              "TXN-094",
+              "TXN-095"
+            ]
+          }
+        ],
+        "alternative_explanations": [
+          {
+            "signal": "pass_through",
+            "explanation": "A payment aggregator, agent or business account legitimately forwards what it receives.",
+            "verify": "Check if the account type and declared business justify high forwarding."
+          },
+          {
+            "signal": "anomaly",
+            "explanation": "A one-off legitimate event (property sale, insurance payout, bonus) can look unusual.",
+            "verify": "Ask for supporting documents for the unusual amount."
+          },
+          {
+            "signal": "circular_flow",
+            "explanation": "Reimbursements, bill splitting or loans between friends can create loops.",
+            "verify": "Ask for the purpose of each transfer and the relationship between the account holders."
+          }
+        ],
+        "next_investigation": [
+          "Review the account's historical in/out pattern for the same behaviour.",
+          "Compare the account against its own earlier activity and customer profile.",
+          "Check whether similar circular patterns occurred previously on these accounts.",
+          "Review customer complaints and existing alerts for the entities involved.",
+          "Decision stays with a human investigator: this tool recommends, it does not conclude."
+        ]
+      },
+      "rejected_identity_matches": []
+    },
+    "CASE-3": {
+      "case_id": "CASE-3",
+      "risk_score": 20,
+      "signal_points": {
+        "same_entity": 20
+      },
+      "mitigating_findings": [],
+      "entities": [
+        {
+          "id": "CUS-1020",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-1100",
+          "type": "customer"
+        }
+      ],
+      "customer_profiles": [
+        {
+          "id": "CUS-1020",
+          "name": "Sivakumar",
+          "dob": "1982-06-15",
+          "address": "63 Beach Rd, Chennai"
+        },
+        {
+          "id": "CUS-1100",
+          "name": "S. Kumar",
+          "dob": "1982-06-15",
+          "address": "63 Beach Rd, Chennai"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "CUS-1020",
+          "to": "CUS-1100",
+          "type": "SAME_AS",
+          "confidence": 1.0,
+          "reasons": [
+            "names similar (Sivakumar / S. Kumar)",
+            "same date of birth",
+            "same phone number",
+            "same email",
+            "same address",
+            "same account identifier"
+          ]
+        }
+      ],
+      "transactions": [],
+      "findings": [
+        {
+          "id": "F-05",
+          "type": "same_entity",
+          "weight": 20,
+          "benign": false,
+          "entities": [
+            "CUS-1020",
+            "CUS-1100"
+          ],
+          "txns": [],
+          "description": "CUS-1020 and CUS-1100 look like the same person (confidence 100%): names similar (Sivakumar / S. Kumar); same date of birth; same phone number; same email; same address; same account identifier."
+        }
+      ],
+      "assessment": {
+        "evidence_strength": "Moderate",
+        "risk_level": "low",
+        "risk_score": 20,
+        "confidence": 30,
+        "caveat": "Illustrative score, not a real-world probability of fraud.",
+        "evidence_items": [
+          {
+            "signal": "same_entity",
+            "observation": "CUS-1020 and CUS-1100 look like the same person (confidence 100%): names similar (Sivakumar / S. Kumar); same date of birth; same phone number; same email; same address; same account identifier.",
+            "strength": "strong",
+            "records": [
+              "CUS-1020",
+              "CUS-1100"
+            ]
+          }
+        ],
+        "alternative_explanations": [
+          {
+            "signal": "same_entity",
+            "explanation": "A data-entry variant or a re-registration of one genuine customer.",
+            "verify": "Compare KYC documents (ID number, photo) for both records."
+          }
+        ],
+        "next_investigation": [
+          "Verify identity documents; merge or flag duplicate customer records.",
+          "Review customer complaints and existing alerts for the entities involved.",
+          "Decision stays with a human investigator: this tool recommends, it does not conclude."
+        ]
+      },
+      "rejected_identity_matches": []
+    },
+    "CASE-4": {
+      "case_id": "CASE-4",
+      "risk_score": 10,
+      "signal_points": {
+        "shared_device": 5,
+        "shared_ip": 5
+      },
+      "mitigating_findings": [
+        "F-01",
+        "F-02"
+      ],
+      "entities": [
+        {
+          "id": "CUS-1000",
+          "type": "customer"
+        },
+        {
+          "id": "CUS-1001",
+          "type": "customer"
+        },
+        {
+          "id": "DEV-100",
+          "type": "device"
+        },
+        {
+          "id": "IP-100",
+          "type": "ip"
+        }
+      ],
+      "customer_profiles": [
+        {
+          "id": "CUS-1000",
+          "name": "Imran Reddy",
+          "dob": "1985-11-02",
+          "address": "69 Lake View Rd, Chennai"
+        },
+        {
+          "id": "CUS-1001",
+          "name": "Rahul Reddy",
+          "dob": "1963-09-07",
+          "address": "69 Lake View Rd, Chennai"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "CUS-1000",
+          "to": "DEV-100",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-1000",
+          "to": "IP-100",
+          "type": "LOGIN_FROM"
+        },
+        {
+          "from": "CUS-1001",
+          "to": "DEV-100",
+          "type": "USES"
+        },
+        {
+          "from": "CUS-1001",
+          "to": "IP-100",
+          "type": "LOGIN_FROM"
+        }
+      ],
+      "transactions": [],
+      "findings": [
+        {
+          "id": "F-01",
+          "type": "shared_device",
+          "weight": 5,
+          "benign": true,
+          "entities": [
+            "CUS-1000",
+            "CUS-1001",
+            "DEV-100"
+          ],
+          "txns": [],
+          "description": "2 customers (CUS-1000, CUS-1001) share device DEV-100. They share one home address, so this is likely a household."
+        },
+        {
+          "id": "F-02",
+          "type": "shared_ip",
+          "weight": 5,
+          "benign": true,
+          "entities": [
+            "CUS-1000",
+            "CUS-1001",
+            "IP-100"
+          ],
+          "txns": [],
+          "description": "2 customers (CUS-1000, CUS-1001) share ip IP-100. They share one home address, so this is likely a household."
+        }
+      ],
+      "assessment": {
+        "evidence_strength": "Weak",
+        "risk_level": "low",
+        "risk_score": 10,
+        "confidence": 6,
+        "caveat": "Illustrative score, not a real-world probability of fraud.",
+        "evidence_items": [
+          {
+            "signal": "shared_device",
+            "observation": "2 customers (CUS-1000, CUS-1001) share device DEV-100. They share one home address, so this is likely a household.",
+            "strength": "weak",
+            "records": [
+              "CUS-1000",
+              "CUS-1001",
+              "DEV-100"
+            ]
+          },
+          {
+            "signal": "shared_ip",
+            "observation": "2 customers (CUS-1000, CUS-1001) share ip IP-100. They share one home address, so this is likely a household.",
+            "strength": "weak",
+            "records": [
+              "CUS-1000",
+              "CUS-1001",
+              "IP-100"
+            ]
+          }
+        ],
+        "alternative_explanations": [
+          {
+            "signal": "shared_device",
+            "explanation": "Customers may be family members or colleagues using one computer or phone.",
+            "verify": "Confirm whether the customers are related and who owns the device."
+          },
+          {
+            "signal": "shared_ip",
+            "explanation": "A shared home, office, caf\u00e9 or mobile carrier gateway can produce one IP for unrelated people.",
+            "verify": "Check IP type (residential vs. VPN/proxy/carrier NAT) and time overlap of logins."
+          }
+        ],
+        "next_investigation": [
+          "Review the ownership and login history of the shared device.",
+          "Compare login timestamps across the customers on the shared IP.",
+          "Review customer complaints and existing alerts for the entities involved.",
+          "Decision stays with a human investigator: this tool recommends, it does not conclude."
+        ]
+      },
+      "rejected_identity_matches": []
+    }
+  }
+}
