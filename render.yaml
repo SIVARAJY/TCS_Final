@@ -1,0 +1,64 @@
+services:
+  # -------------------------------------------------------------
+  # 1. Streamlit 7-CSV Financial Crime Network Investigator
+  # -------------------------------------------------------------
+  - type: web
+    name: fincrime-network-investigator
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: ANTHROPIC_API_KEY
+        sync: false
+
+  # -------------------------------------------------------------
+  # 2. FastAPI Forensic Analysis API Backend
+  # -------------------------------------------------------------
+  - type: web
+    name: fincrime-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: ANTHROPIC_API_KEY
+        sync: false
+
+  # -------------------------------------------------------------
+  # 3. Modern React + Tailwind Frontend (Static Site)
+  # -------------------------------------------------------------
+  - type: web
+    name: fincrime-dashboard
+    runtime: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: fincrime-api
+          property: host

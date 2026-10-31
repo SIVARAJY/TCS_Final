@@ -242,15 +242,80 @@ To enable automated AI narrative synthesis:
 
 ---
 
-##  Deployment Guide
+## 🚢 Render & Cloud Deployment Guide
+
+The repository includes a ready-to-deploy [`render.yaml`](render.yaml) blueprint and root [`requirements.txt`](requirements.txt), allowing instant deployment on [Render](https://render.com).
+
+### Method 1: 1-Click Render Blueprint (Recommended)
+
+1. Push your repository to GitHub.
+2. Sign in to your [Render Dashboard](https://dashboard.render.com).
+3. Click **New +** → **Blueprint**.
+4. Select your GitHub repository (`TCS_Final`).
+5. Render reads [`render.yaml`](render.yaml) and automatically configures:
+   - **`fincrime-network-investigator`** (Streamlit Web Service on Python 3.11)
+   - **`fincrime-api`** (FastAPI Backend Web Service)
+   - **`fincrime-dashboard`** (React + Tailwind Static Site linked to the backend)
+6. Fill in your `GEMINI_API_KEY` when prompted and click **Apply**.
+
+---
+
+### Method 2: Deploy Streamlit App Manually on Render
+
+If you only want the standalone 7-CSV interactive Streamlit investigator:
+
+1. Click **New +** → **Web Service** in Render.
+2. Connect your GitHub repository.
+3. Configure settings:
+   - **Name**: `fincrime-investigator`
+   - **Runtime**: `Python 3`
+   - **Branch**: `main`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true`
+4. Under **Environment Variables**, add:
+   - `PYTHON_VERSION`: `3.11.9`
+   - `OPENBLAS_NUM_THREADS`: `1`
+   - `GEMINI_API_KEY`: *(Your Google AI Studio API Key)*
+   - `GEMINI_MODEL`: `gemini-2.5-flash`
+5. Click **Create Web Service**. Render will provision your app with a public `https://<service-name>.onrender.com` URL.
+
+---
+
+### Method 3: Deploy Full-Stack App (FastAPI + React) on Render
+
+#### Step A: FastAPI Backend (Web Service)
+1. Click **New +** → **Web Service**.
+2. Connect repo and set:
+   - **Root Directory**: `backend`
+   - **Runtime**: `Python 3`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+3. Environment Variables:
+   - `PYTHON_VERSION`: `3.11.9`
+   - `OPENBLAS_NUM_THREADS`: `1`
+   - `GEMINI_API_KEY`: *(Your key)*
+4. Deploy and copy your backend URL (e.g. `https://fincrime-api.onrender.com`).
+
+#### Step B: React Frontend (Static Site)
+1. Click **New +** → **Static Site**.
+2. Connect repo and set:
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+3. Under **Redirects/Rewrites**:
+   - Source: `/*`
+   - Destination: `/index.html`
+   - Action: `Rewrite`
+4. Environment Variables:
+   - `VITE_API_URL`: `https://fincrime-api.onrender.com` (from Step A)
+5. Click **Create Static Site**.
+
+---
+
+### Other Cloud Platforms
 
 - **Streamlit Community Cloud**:
-  - Deploy directly from your GitHub repository with `app.py` as the entrypoint. Add `GEMINI_API_KEY` under *App Settings -> Secrets*.
-- **Render / Railway (Backend)**:
-  - Root directory: `backend`
-  - Build command: `pip install -r requirements.txt`
-  - Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-  - Environment variable: `GEMINI_API_KEY`
+  - Connect your GitHub repo, select `app.py`, and set `GEMINI_API_KEY` in *App Settings → Secrets*.
 - **Vercel / Netlify (Frontend)**:
   - Root directory: `frontend`
   - Build command: `npm run build`
