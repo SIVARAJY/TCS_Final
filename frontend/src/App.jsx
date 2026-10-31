@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import ForceGraph2D from "react-force-graph-2d";
-import { getGraph, getCases, getCase, getReport, getPipeline } from "./api";
+import { getGraph, getCases, getCase, getReport, getPipeline, API_BASE } from "./api";
 import LoginPage from "./LoginPage";
 
 // Entity type color theme (Modern Cyber-Fintech Palette)
@@ -58,7 +58,7 @@ export default function App() {
           openCase(c[0].id);
         }
       })
-      .catch((e) => setError(`${e.message}. Is the backend running at http://localhost:8000?`));
+      .catch((e) => setError(`${e.message}. Is the backend running and reachable at ${API_BASE}?`));
   }, [user]);
 
   const inCase = useMemo(() => {
