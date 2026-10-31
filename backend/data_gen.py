@@ -48,8 +48,15 @@ def generate(seed: int = 7):
         own(c, f"ACC-{2000+i}"); uses(c, f"DEV-{100+i}"); login(c, f"IP-{100+i}")
     # innocent household: CUS-1001 lives with CUS-1000 and shares device + IP
     h = nodes["CUS-1000"]
-    nodes["CUS-1001"].update(name=f"{nodes['CUS-1001']['name'].split()[0]} {h['name'].split()[1]}", address=h["address"])
+    nodes["CUS-1001"].update(name=f"{'Rahul'} {h['name'].split()[1]}", address=h["address"])
     uses("CUS-1001", "DEV-100"); login("CUS-1001", "IP-100")
+
+    # entity-resolution examples: Record 1 "Sivakumar" + Record 2 "S. Kumar" share account + phone + email; Record 3 "S. Kumar" is a different account
+    nodes["CUS-1020"].update(name="Sivakumar", dob="1982-06-15", phone="+91 98765 43210", email="sk.kumar@mail.com")
+    cust("CUS-1100", "S. Kumar", "1982-06-15", "98765-43210", "sk.kumar@mail.com", nodes["CUS-1020"]["address"])
+    edges.append({"source": "CUS-1100", "target": "ACC-2020", "type": "OWNS"})
+    cust("CUS-1101", "S. Kumar", "1991-12-01", "+91 90000 12345", "kumar.s@other.com", nodes["CUS-1020"]["address"])
+    own("CUS-1101", "ACC-205"); login("CUS-1101", "IP-205")
 
     for m in range(1, 9):
         node(f"MER-{m}", "merchant")

@@ -4,7 +4,7 @@ from resolve import norm_addr
 from datetime import datetime
 import networkx as nx
 
-WEIGHTS = {"shared_ip": 15, "same_entity": 20, "shared_device": 25, "fan_in": 25, "pass_through": 20, "circular_flow": 20, "rapid_movement": 15}
+WEIGHTS = {"anomaly": 10, "shared_ip": 15, "same_entity": 20, "shared_device": 25, "fan_in": 25, "pass_through": 20, "circular_flow": 20, "rapid_movement": 15}
 
 
 def build_graph(nodes, edges):
@@ -52,7 +52,9 @@ def detect(G):
             senders[t["target"]].add(t["source"]); txs[t["target"]].append(t["txn"])
     for acc, s in senders.items():
         if len(s) >= 3:
-            add("fan_in", [acc, *s], txs[acc], f"{acc} receives money from {len(s)} different accounts ({', '.join(sorted(s))}).")
+            onward = [t for t in _transfers(G) if t["type"] == "TRANSFER" and t["source"] == acc]
+            tail = f" It then forwarded {sum(t['amount'] for t in onward):,.0f} to {', '.join(sorted({t['target'] for t in onward}))}." if onward else ""
+            add("fan_in", [acc, *s, *{t["target"] for t in onward}], txs[acc] + [t["txn"] for t in onward], f"{acc} receives money from {len(s)} different accounts ({', '.join(sorted(s))}).{tail}")
 
     # 3/5. Pass-through and rapid movement
     ins, outs = defaultdict(list), defaultdict(list)
@@ -81,6 +83,11 @@ def detect(G):
             add("rapid_movement", [acc], ids, f"{acc} forwarded {pct}% of incoming funds within {worst:.0f} minutes.")
         if worst <= 240:
             add("pass_through", [acc], ids, f"{acc} passed on {pct}% of what it received (in {tot_in:,.0f}, out {tot_out:,.0f}) within {worst/60:.1f}h.")
+
+    # 6. Statistical / Isolation Forest outliers
+    from anomaly import detect_anomalies
+    for acc, text, ids in detect_anomalies(G):
+        add("anomaly", [acc], ids, text)
 
     # 4. Circular flow
     D = nx.DiGraph()

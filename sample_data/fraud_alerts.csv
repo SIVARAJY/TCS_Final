@@ -1,0 +1,4 @@
+alert_id,entity_id,alert_type,severity,timestamp,description
+ALT-901,ACC-MULE-1,Rapid Velocity Inflow,HIGH,2026-10-28 10:45:00,4 distinct external wires received within 80 minutes
+ALT-902,ACC-OFFSHORE-9,High-Risk Jurisdiction Hop,CRITICAL,2026-10-28 11:35:00,Immediate wire forwarding to Cyprus offshore endpoint
+ALT-903,CUS-106,CTR Threshold Structuring,HIGH,2026-10-29 17:30:00,"4 transactions totaling $38,850 all within 5% below $10k reporting limit"

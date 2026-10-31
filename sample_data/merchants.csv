@@ -1,0 +1,5 @@
+merchant_id,merchant_name,category,risk_level,country
+MERCH-CRYPTO-1,Nexus Peer Crypto Exchange,Cryptocurrency Exchange,HIGH,CYP
+MERCH-SHELL-2,Pan-Atlantic Consulting LLC,Corporate Consulting / Shell,CRITICAL,PAN
+MERCH-RETAIL-1,Metro Grocery Superstore,Supermarkets,LOW,USA
+MERCH-RETAIL-2,AeroTravel Direct,Airlines & Travel,LOW,USA

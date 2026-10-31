@@ -1,0 +1,13 @@
+customer_id,name,risk_rating,tax_id,phone,email,country
+CUS-101,Alexander Hayes,HIGH,TX-9941,+1-555-0199,alex.hayes@apexgroup.com,USA
+CUS-102,Elena Vance,MEDIUM,TX-1024,+1-555-0122,elena.vance@gmail.com,USA
+CUS-103,Marcus Kane,HIGH,TX-9941,+1-555-0199,marcus.kane@apexgroup.com,CYP
+CUS-104,Sophia Chen,LOW,TX-3412,+1-555-0144,sophia.chen@techcorp.io,USA
+CUS-105,Liam Bennett,LOW,TX-5519,+44-20-7946-0912,liam.b@outlook.co.uk,GBR
+CUS-106,Devin Miller,HIGH,TX-7731,+1-555-0177,syndicate.ops@protonmail.ch,USA
+CUS-107,Chloe Dupont,MEDIUM,TX-9901,+33-1-4268-5500,chloe.dupont@orange.fr,FRA
+CUS-108,Viktor Morozov,HIGH,TX-4402,+357-25-884100,syndicate.ops@protonmail.ch,CYP
+CUS-109,Isabella Rossi,LOW,TX-1188,+39-06-6987-1200,isabella.rossi@libero.it,ITA
+CUS-110,Noah Patel,MEDIUM,TX-6623,+1-555-0188,noah.patel@globalbiz.com,USA
+CUS-111,Aria Stark,LOW,TX-3321,+1-555-0133,aria.stark@winterfell.org,USA
+CUS-112,Lucas Grey,HIGH,TX-5544,+507-833-9100,lucas.grey@panama-advisory.pa,PAN

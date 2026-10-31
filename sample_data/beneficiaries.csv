@@ -1,0 +1,8 @@
+beneficiary_id,account_id,beneficiary_account,name,relationship
+BEN-01,ACC-MULE-1,ACC-OFFSHORE-9,Global Shield Holdings,VENDOR
+BEN-02,ACC-CYCLE-A,ACC-CYCLE-B,Apex Consulting,AFFILIATE
+BEN-03,ACC-CYCLE-B,ACC-CYCLE-C,Zenith Ventures,SUBSIDIARY
+BEN-04,ACC-CYCLE-C,ACC-CYCLE-A,Apex Consulting,PARTNER
+BEN-05,ACC-NORM-2,ACC-NORM-1,Isabella Rossi,FAMILY
+BEN-06,ACC-FEED-A,ACC-OFFSHORE-9,Global Shield Holdings,VENDOR
+BEN-07,ACC-FEED-B,ACC-OFFSHORE-9,Global Shield Holdings,VENDOR

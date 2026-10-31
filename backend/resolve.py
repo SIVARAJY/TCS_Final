@@ -1,4 +1,5 @@
-"""Stage 2 - Entity resolution: find customer records that may be the same real person."""
+"""Stage 2 - Entity resolution: do two customer records describe the same real person?
+Three outcomes: match (>=0.65), needs verification (similar name, thin evidence), rejected look-alike."""
 import re
 from difflib import SequenceMatcher
 from itertools import combinations
@@ -6,6 +7,10 @@ from itertools import combinations
 
 def norm_name(s):
     return " ".join(t for t in re.sub(r"[^a-z ]", " ", s.lower()).split() if len(t) > 1)  # drops initials
+
+
+def compact_name(s):
+    return re.sub(r"[^a-z]", "", s.lower())  # keeps initials: "S. Kumar" -> "skumar"
 
 
 def norm_phone(s):
@@ -21,27 +26,40 @@ def sim(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
-def resolve(nodes, threshold=0.7):
+def name_sim(a, b):
+    return max(sim(norm_name(a), norm_name(b)), sim(compact_name(a), compact_name(b)))
+
+
+def resolve(nodes, edges, threshold=0.65):
     custs = [n for n in nodes if n["type"] == "customer"]
-    matches, rejected, compared = [], [], 0
+    accts = {}
+    for e in edges:
+        if e["type"] == "OWNS":
+            accts.setdefault(e["source"], set()).add(e["target"])
+    matches, review, rejected, compared = [], [], [], 0
     for a, b in combinations(custs, 2):
         compared += 1
-        ns = sim(norm_name(a["name"]), norm_name(b["name"]))
-        score, reasons = 0.35 * ns, []
-        if ns >= 0.9:
-            reasons.append(f"names match ({a['name']} / {b['name']})")
-        if a["dob"] == b["dob"]:
-            score += 0.25; reasons.append("same date of birth")
-        if norm_phone(a["phone"]) == norm_phone(b["phone"]):
-            score += 0.20; reasons.append("same phone number")
-        if sim(norm_addr(a["address"]), norm_addr(b["address"])) >= 0.9:
-            score += 0.15; reasons.append("same address")
-        score = round(score, 2)
-        differs = [k for k, ok in (("date of birth", a["dob"] == b["dob"]), ("phone", norm_phone(a["phone"]) == norm_phone(b["phone"])),
-                                   ("address", sim(norm_addr(a["address"]), norm_addr(b["address"])) >= 0.9)) if not ok]
+        ns = name_sim(a["name"], b["name"])
+        score, hit, miss = 0.30 * ns, [], []
+        if ns >= 0.75:
+            hit.append(f"names similar ({a['name']} / {b['name']})")
+        for label, w, ok in (
+            ("date of birth", 0.15, a["dob"] == b["dob"]),
+            ("phone number", 0.20, norm_phone(a["phone"]) == norm_phone(b["phone"])),
+            ("email", 0.15, a["email"].lower() == b["email"].lower()),
+            ("address", 0.10, sim(norm_addr(a["address"]), norm_addr(b["address"])) >= 0.9),
+            ("account identifier", 0.25, bool(accts.get(a["id"], set()) & accts.get(b["id"], set()))),
+        ):
+            if ok:
+                score += w; hit.append(f"same {label}")
+            else:
+                miss.append(label)
+        score = round(min(score, 1.0), 2)
+        pair = {"a": a["id"], "b": b["id"]}
         if score >= threshold:
-            matches.append({"a": a["id"], "b": b["id"], "confidence": score, "reasons": reasons})
-        elif ns >= 0.9:  # looks alike but evidence says different people -> kept as an alternative explanation
-            rejected.append({"a": a["id"], "b": b["id"], "score": score,
-                             "why": f"Names look alike but {', '.join(differs)} differ - treated as different people."})
-    return {"matches": matches, "rejected": rejected, "compared": compared}
+            matches.append({**pair, "confidence": score, "reasons": hit})
+        elif ns >= 0.8 and len(hit) >= 2:  # similar name plus at least one other shared attribute, but not enough to link
+            review.append({**pair, "score": score, "why": f"Names similar and {', '.join(h for h in hit[1:])}, but {', '.join(miss)} do not match - verify before linking."})
+        elif ns >= 0.9:
+            rejected.append({**pair, "score": score, "why": f"Names look alike but {', '.join(miss)} differ - treated as different people."})
+    return {"matches": matches, "review": review, "rejected": rejected, "compared": compared}

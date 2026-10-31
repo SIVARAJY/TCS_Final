@@ -1,5 +1,8 @@
 fastapi
 uvicorn[standard]
 networkx>=3.2
+google-genai
 anthropic
 python-dotenv
+scikit-learn
+numpy
